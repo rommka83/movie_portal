@@ -1,0 +1,14 @@
+.RightArrow {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.RightArrow::before {
+  position: absolute;
+  content: '\203A';
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+/* \2039 */
