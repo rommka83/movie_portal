@@ -7,20 +7,21 @@ const meta = {
   title: 'Example/RightArrow',
   component: RightArrow,
   tags: ['autodocs'],
-  //   argTypes: {
-  //     backgroundColor: { control: 'color' },
-  //   },
+  // argTypes: {
+  //   size: 'big',
+  // },
 } satisfies Meta<typeof RightArrow>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary: Story = {
-  //   args: {
-  //     primary: true,
-  //     label: 'Button',
-  //   },
+export const Big: Story = {
+  args: { size: 'big' },
+};
+
+export const Small: Story = {
+  args: { size: 'small' },
 };
 
 // export const Secondary: Story = {

@@ -5,3 +5,7 @@
   font-family: 'Source Sans Pro', Arial, Helvetica, Helvetica Neue, FreeSans,
     sans-serif;
 }
+html,
+body {
+  background: #100e19;
+}
