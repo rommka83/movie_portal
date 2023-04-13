@@ -54,18 +54,5 @@
     "@types/compose-function": "^0.0.30",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3"
-  },
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rommka83/movie_portal.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rommka83/movie_portal/issues"
-  },
-  "homepage": "https://github.com/rommka83/movie_portal#readme"
+  }
 }
