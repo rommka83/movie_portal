@@ -15,7 +15,6 @@
 }
 
 .button.primary {
-	/* height: 32px; */
 	background-color: var(--pink);
 	border-color: var(--pink);
 }
@@ -31,7 +30,6 @@
 }
 
 .button.secondary {
-	/* height: 40px; */
 	background-color: var(--dark-gray);
 	border-color: var(--dark-gray);
 	padding: 9px 15px;
@@ -48,7 +46,6 @@
 }
 
 .button.third {
-	/* height: 32px; */
 	padding: 6px 16px;
 	border-radius: var(--secondary-border-radius);
 	background-color: var(--gray);
@@ -88,7 +85,6 @@
 }
 
 .button.small {
-	/* height: 24px; */
 	padding: 3px 7px;
 	border-radius: var(--third-border-radius);
 }
