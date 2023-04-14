@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './rightarrow.module.css';
+import classNames from 'classnames';
 
 interface IProps {
   size: 'big' | 'small';
@@ -8,18 +9,17 @@ interface IProps {
 }
 
 export function RightArrow({ size = 'big', color = 'white', onClick }: IProps) {
+  const classes = classNames(styles.RightArrow, {
+    [styles.big]: size === 'big',
+    [styles.small]: size !== 'big',
+  });
+
   return (
-    <button
-      className={`${styles.RightArrow} ${
-        size === 'big' ? styles.big : styles.small
-      }`}
-      onClick={onClick}
-    >
+    <button className={classes} onClick={onClick}>
       <svg
         viewBox='0 0 512 512'
         xmlns='http://www.w3.org/2000/svg'
         xmlnsXlink='http://www.w3.org/1999/xlink'
-        // fill='var(--white)'
         fill={
           color === 'white' ? 'var(--white)' : 'var(--main-background-color)'
         }
