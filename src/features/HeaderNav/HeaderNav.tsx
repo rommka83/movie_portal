@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./headernav.module.css";
-import { Link } from "shared/ui/Link/Link";
+import Link from "shared/ui/Link";
 import { useTranslation } from "react-i18next";
 
 export function HeaderNav() {
