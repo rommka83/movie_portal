@@ -1,0 +1,12 @@
+{
+  "Welcome to React": "Welcome",
+  "navList": {
+    "Home": "Home",
+    "MovieList": "MovieList",
+    "MoviePage": "MoviePage",
+    "ActorPage": "ActorPage",
+    "Authorization": "Authorization",
+    "MovieReviews": "MovieReviews",
+    "AdminPanel": "AdminPanel"
+  }
+}
