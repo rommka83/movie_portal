@@ -1,12 +1,12 @@
 {
-  "Welcome to React": "Привет",
-  "navList": {
-    "Home": "Главная",
-    "MovieList": "Список фильмов",
-    "MoviePage": "Страница фильма",
-    "ActorPage": "Страница актёра",
-    "Authorization": "Авторизация",
-    "MovieReviews": "Отзыввы на фильм",
-    "AdminPanel": "Админка"
-  }
+	"Welcome to React": "Привет",
+	"navList": {
+		"Home": "Главная",
+		"MovieList": "Список фильмов",
+		"MoviePage": "Страница фильма",
+		"ActorPage": "Страница актёра",
+		"Authorization": "Авторизация",
+		"MovieReviews": "Отзывы на фильм",
+		"AdminPanel": "Админка"
+	}
 }
