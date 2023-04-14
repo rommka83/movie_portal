@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './header.module.css';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ChangeTheLanguage } from 'shared/ui/ChangeTheLanguage';
+import { ChangeTheLanguage } from 'features/ChangeTheLanguage';
 
 export function Header() {
   const { t } = useTranslation();
