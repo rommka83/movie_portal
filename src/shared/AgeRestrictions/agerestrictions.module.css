@@ -1,0 +1,8 @@
+.wrapper {
+  padding: 5px;
+  background-color: var(--gray-08);
+  border-radius: 6px;
+}
+.text {
+  font-weight: 600;
+}

@@ -1,0 +1,1 @@
+export { AgeRestrictions } from './AgeRestrictions';
