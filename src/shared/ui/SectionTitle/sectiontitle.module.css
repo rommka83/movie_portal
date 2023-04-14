@@ -3,4 +3,5 @@
 	line-height: 28px;
 	font-weight: 700;
 	color: var(--white);
+	cursor: pointer;
 }
