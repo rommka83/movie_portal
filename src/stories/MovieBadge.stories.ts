@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { MovieBadge } from '../entries/MovieBadge';
+import { MovieBadge } from '../entities/MovieBadge';
 
 const meta = {
   title: 'Example/MovieBadge',
