@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100px;
+
+  padding-top: 20px;
+}
+
+.wrapper:hover .banner {
+  /* width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%; */
+  transform: scale(1.1);
+}
+
+.banner {
+  position: relative;
+  /* min-height: 300px; */
+}
+.pic {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+}
+.age {
+}
+.title {
+}
+.statusPrice {
+}
