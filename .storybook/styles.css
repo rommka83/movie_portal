@@ -7,3 +7,6 @@ th > span,
 .docblock-argstable-body {
   color: black;
 }
+#control-type > option {
+  color: black;
+}

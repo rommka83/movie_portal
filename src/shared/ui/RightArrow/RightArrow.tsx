@@ -15,7 +15,7 @@ export function RightArrow({ size = 'big', color = 'white', onClick }: IProps) {
   });
 
   return (
-    <button className={classes} onClick={onClick}>
+    <button className={classes} onClick={onClick} data-testid='RightArrow'>
       <svg
         viewBox='0 0 512 512'
         xmlns='http://www.w3.org/2000/svg'
