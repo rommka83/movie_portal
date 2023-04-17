@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { ReitingMovie } from '../shared/ReitingMovie';
+import { ReitingMovie } from '../shared/bisnes/ReitingMovie';
 
 const meta = {
   title: 'Example/ReitingMovie',

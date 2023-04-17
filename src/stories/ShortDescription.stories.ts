@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { ShortDescription } from '../shared/ShortDescription';
+import { ShortDescription } from '../shared/bisnes/ShortDescription';
 
 const meta = {
   title: 'Example/ShortDescription',

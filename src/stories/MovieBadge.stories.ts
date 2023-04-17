@@ -14,8 +14,8 @@ const meta = {
     ageRestrictions: 22,
     year: '2222',
     country: 'Таджикистан',
-    // genre:{obj.genre}
     duration: '400 сезонов',
+    genre: { ru: ['string'], en: ['string'] },
     reiting: {
       grade: '9,2',
       spectacularity: 30,

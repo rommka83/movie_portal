@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './moviebadge.module.css';
-import { PosterCards } from 'shared/PosterCards/PosterCards';
-import { AgeRestrictions } from 'shared/AgeRestrictions';
+import { PosterCards } from 'shared/bisnes/PosterCards/PosterCards';
+import { AgeRestrictions } from 'shared/bisnes/AgeRestrictions';
 import { CardTitle } from 'shared/ui/CardTitle/CardTitle';
 import { BannerHover } from 'entities/BannerHover';
 import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
@@ -12,17 +12,12 @@ export interface IFilm {
   width: number;
   name: { ru: string; en: string };
   img: string;
-  category?: string;
   price: boolean;
   ageRestrictions: number;
   year: string;
   country: string;
-  genre?: { ru: string[]; en: string[] };
   duration: string;
-  actors?: { name: string; films: string[] }[];
-  trailer?: string;
-  description?: string;
-  comments?: string;
+  genre: { ru: string[]; en: string[] };
   reiting: {
     grade: string;
     spectacularity: number;
@@ -42,6 +37,7 @@ export function MovieBadge({
   country,
   duration,
   reiting,
+  genre,
 }: IFilm) {
   const { i18n } = useTranslation();
   const lng = i18n.language;
@@ -67,7 +63,7 @@ export function MovieBadge({
             year={year}
             country={country}
             duration={duration}
-            genre={''}
+            genre={lng === 'ru' ? genre.ru[0] : genre.en[0]}
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import PosterCards from '../shared/PosterCards';
+import PosterCards from '../shared/bisnes/PosterCards';
 
 const meta = {
   title: 'Example/PosterCards',

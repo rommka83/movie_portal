@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { TopChart } from '../shared/TopChart';
+import { TopChart } from '../shared/bisnes/TopChart';
 
 const meta = {
   title: 'Example/TopChart',
