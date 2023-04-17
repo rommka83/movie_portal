@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './adminpanel.module.css';
 import { PosterCards } from 'shared/PosterCards/PosterCards';
-import { MovieBadge } from 'entries/MovieBadge';
+import { MovieBadge } from 'entities/MovieBadge';
 
 export function AdminPanel() {
   return (
