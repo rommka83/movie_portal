@@ -5,7 +5,18 @@
   font-family: 'Source Sans Pro', Arial, Helvetica, Helvetica Neue, FreeSans,
     sans-serif;
 }
+
 html,
 body {
   background: #100e19;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--gray-light) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 34px !important;
 }
