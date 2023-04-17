@@ -1,5 +1,6 @@
 :root {
 	--main-background-color: #100e19;
+	--pink-light: #c447ff;
 	--pink: #ea003d;
 	--pink-hover: #ff0f4d;
 	--pink-active: #c10032;
@@ -10,6 +11,8 @@
 	--gray-light: #a5a1b2;
 	--gray-798: #7e798f;
 	--gray-08: rgba(255, 255, 255, 0.08);
+	--gray-16: rgba(255, 255, 255, 0.16);
+	--gray-24: rgba(7, 5, 14, 0.24);
 	--gray-32: rgba(255, 255, 255, 0.32);
 	--gray-48: rgba(255, 255, 255, 0.48);
 	--gray-72: rgba(255, 255, 255, 0.72);
