@@ -1,4 +1,5 @@
 import React from 'react';
+import PromoSlider from 'widgets/PromoSlider';
 import styles from './home.module.css';
 import test from '../../temp/DB/test.json';
 import { IFilm } from 'entities/MovieBadge';
@@ -10,9 +11,12 @@ let arr2: IFilm[] = Array(20).fill(obj2);
 
 export function Home() {
   return (
-    <div className='container'>
+  <>
+  <PromoSlider />
+  <div className='container'>
       <CategoryFilms title={obj.category} movies={arr} />
       <CategoryFilms title={obj2.category} movies={arr2} />
     </div>
+  </>    
   );
 }
