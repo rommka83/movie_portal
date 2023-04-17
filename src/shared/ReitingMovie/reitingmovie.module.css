@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  padding: 10px;
+}
+.left {
+  font-size: 25px;
+  font-weight: 900;
+}
+.right {
+  font-size: 22px;
+  font-weight: 900;
+}

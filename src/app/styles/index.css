@@ -26,3 +26,12 @@ body {
 #root {
 	height: 100%;
 }
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.swiper .swiper-button-next {
+  color: rgb(28, 26, 26);
+}
