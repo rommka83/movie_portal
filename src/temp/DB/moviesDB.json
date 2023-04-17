@@ -1,0 +1,26 @@
+{
+  "movies": [
+    {
+      "name": { "ru": "string", "en": "string" },
+      "img": "string",
+      "category": "string (надо буквально две категории?)",
+      "price": "boolean",
+      "age restrictions": "number",
+      "year": "string",
+      "country": "string",
+      "genre": { "ru": ["string"], "en": ["string"] },
+      "duration": "string",
+      "actors": [{ "name": "string", "films": ["string", "string"] }],
+      "trailer": "string",
+      "description": "string",
+      "comments": "string",
+      "reiting": {
+        "grade": "string",
+        "spectacularity": "number",
+        "actors": "number",
+        "plot": "number",
+        "directing": "number"
+      }
+    }
+  ]
+}
