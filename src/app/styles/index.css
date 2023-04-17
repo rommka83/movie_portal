@@ -1,14 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@font-face {
+	font-family: "iviSans";
+	src: local("iviSans"), url("./fonts/iviSans-Regular.woff2") format("woff2");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "iviSans";
+	src: local("iviSans"), url("./fonts/iviSans-Medium.woff2") format("woff2");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "iviSans";
+	src: local("iviSans"), url("./fonts/iviSans-Bold.woff2") format("woff2");
+	font-weight: 700;
+}
 
 * {
-  color: var(--white);
-  font-family: 'Source Sans Pro', Arial, Helvetica, Helvetica Neue, FreeSans,
-    sans-serif;
+	color: var(--white);
+	font-family: "iviSans", Arial, Helvetica, Helvetica Neue, FreeSans, sans-serif;
 }
 
 html,
 body {
-  background: #100e19;
+	background: #100e19;
+}
+
+#root {
+	height: 100%;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.swiper .swiper-button-next {
+  color: rgb(28, 26, 26);
 }
 
 .swiper-button-next,

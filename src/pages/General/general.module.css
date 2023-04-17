@@ -1,7 +1,16 @@
 .general {
+  display: flex;
+	flex-direction: column;
+	min-height: 100%;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
+
+.main {
+	display: flex;
+	flex: 1 1 auto;
+}
+

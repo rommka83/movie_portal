@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { AgeRestrictions } from '../shared/AgeRestrictions';
+import { AgeRestrictions } from '../shared/bisnes/AgeRestrictions';
 
 const meta = {
   title: 'Example/AgeRestrictions',
