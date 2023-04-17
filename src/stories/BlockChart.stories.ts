@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { BlockChart } from '../shared/BlockChart';
+import { BlockChart } from '../shared/bisnes/BlockChart';
 
 const meta = {
   title: 'Example/BlockChart',

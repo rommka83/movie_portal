@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styles from './bannerhover.module.css';
-import { BlockChart } from 'shared/BlockChart';
-import { ReitingMovie } from 'shared/ReitingMovie';
-import { ShortDescription } from 'shared/ShortDescription';
-import { TopChart } from 'shared/TopChart';
+import { BlockChart } from 'shared/bisnes/BlockChart';
+import { ReitingMovie } from 'shared/bisnes/ReitingMovie';
+import { ShortDescription } from 'shared/bisnes/ShortDescription';
+import { TopChart } from 'shared/bisnes/TopChart';
 import { SvgIcon } from 'shared/ui/SvgIcon';
 
 interface IProps {
