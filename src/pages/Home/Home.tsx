@@ -11,12 +11,9 @@ let arr2: IFilm[] = Array(20).fill(obj2);
 
 export function Home() {
   return (
-  <>
-  <PromoSlider />
-  <div className='container'>
+    <div className='container'>
       <CategoryFilms title={obj.category} movies={arr} />
       <CategoryFilms title={obj2.category} movies={arr2} />
     </div>
-  </>    
   );
 }
