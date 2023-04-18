@@ -42,5 +42,14 @@
 		"Search": "Поиск",
 		"Profile": "Профиль",
 		"More": "Ещё"
+	},
+	"header": {
+		"MyIvi": "Мой Иви",
+		"WhatsNew": "Что нового",
+		"Movies": "Фильмы",
+		"Series": "Сериалы",
+		"Cartoons": "Мультфильмы",
+		"TvChannels": "ТВ-каналы",
+		"Watch30DaysForFree": "Смотреть 30 дней бесплатно"
 	}
 }

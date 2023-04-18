@@ -9,8 +9,7 @@
 .footerContainer {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	max-width: 1216px;
+	width: 80vw;
 }
 
 .containerBorder {

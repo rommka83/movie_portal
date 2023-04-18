@@ -3,8 +3,8 @@ import { FooterDesktop } from "./FooterDesktop";
 import { FooterMobile } from "./FooterMobile";
 
 export const Footer = () => {
-	const mobile = UseMedia("(max-width: 1159px)");
-	if (mobile) {
+	const tablet = UseMedia("(max-width: 1253px)");
+	if (tablet) {
 		return <FooterMobile />;
 	}
 	return <FooterDesktop />;
