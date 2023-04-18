@@ -1,6 +1,7 @@
 {
   "movies": [
     {
+      "id": "1",
       "name": { "ru": "Правосудие", "en": "Justice" },
       "img": "https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85",
       "category": "Сериалы с высоким рейтингом по подписке",
@@ -14,12 +15,32 @@
       },
       "duration": "1 сезон",
       "actors": [
-        { "name": "Каан Урганджиогл", "films": [] },
-        { "name": "Пынар Дениз", "films": [] },
-        { "name": "Хусейн Авни Даньял", "films": [] },
-        { "name": "Мехмет Иилмаз Ак", "films": [] }
+        {
+          "id": "11",
+          "name": "Каан Урганджиогл",
+          "foto": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/27dd6c2ee049558f209f2c489cfab2.jpg/120x144/?q=85",
+          "films": []
+        },
+        {
+          "id": "12",
+          "name": "Пынар Дениз",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/a/2/9d691c075d081d3f1204fde3e711c1.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "13",
+          "name": "Хусейн Авни Даньял",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/e/8/68316cb6b1d60c7cf5e1f3ae3d04f2.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "14",
+          "name": "Мехмет Иилмаз Ак",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/b/c/8b4af68aa2a7c950c72ceae6f11f13.jpg/120x144/?q=60",
+          "films": []
+        }
       ],
-      "trailer": "string",
+      "trailer": "https://region.dfs.ivi.ru/mp4-hd720/pUpCm6dq2trYYSOODowM8g,1681818254/storage30/contents/5/8/56d8c5e9ad6f203497c55617fea017.mp4",
       "description": "Уважаемый прокурор узнаёт, что его младший брат стал подозреваемым в убийстве. Он нанимает талантливую девушку-адвоката, и напряжённое расследование переплетается с не менее закрученной историей любви. Остросюжетная детективная драма со звездой сериала «Чёрная любовь» Кааном Урганджиоглу.",
       "comments": "string",
       "reiting": {
@@ -31,6 +52,7 @@
       }
     },
     {
+      "id": "2",
       "name": { "ru": "1 + 1", "en": "1 + 1" },
       "img": "https://thumbs.dfs.ivi.ru/storage2/contents/6/1/0ceca03c51c3d38f34bdf3fd0dd2c8.jpg/234x360//?q=85",
       "category": "Лучшие драмы",
@@ -44,12 +66,32 @@
       },
       "duration": "1 ч. 52 мин.",
       "actors": [
-        { "name": "Франсуа Клюзе", "films": [] },
-        { "name": "Омар Си", "films": [] },
-        { "name": "Анн Ле Ни", "films": [] },
-        { "name": "Одри Флеро", "films": [] }
+        {
+          "id": "21",
+          "name": "Франсуа Клюзе",
+          "foto": "https://thumbs.dfs.ivi.ru/storage33/contents/f/f/06672be611ab9b9e54579c4f645460.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "22",
+          "name": "Омар Си",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/d/9/9dc20058cee0713134c2c0f00aebea.jpg/1920x1080/?q=60",
+          "films": []
+        },
+        {
+          "id": "23",
+          "name": "Анн Ле Ни",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/4/6/15390a4eb071847bb4a5ea1b0aa6ac.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "24",
+          "name": "Одри Флеро",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60",
+          "films": []
+        }
       ],
-      "trailer": "string",
+      "trailer": "https://region.dfs.ivi.ru/mp4-hi/TO2y2CvCRUwx2D5UyzQpDg,1681821973/storage23/contents/2/8/1cc63e240e99488c7b013fc88b1ce0.mp4",
       "description": "Прикованный к инвалидному креслу аристократ нанимает себе в помощники человека, который подходит для этой работы меньше всего – только что освободившегося из тюрьмы темнокожего парня. Трогательная и глубокая комедийная драма, получившая премии «Сезар», «Жорж» и «Гойя».",
       "comments": "string",
       "reiting": {

@@ -5,11 +5,11 @@ import { AgeRestrictions } from 'shared/bisnes/AgeRestrictions';
 import { CardTitle } from 'shared/ui/CardTitle/CardTitle';
 import { BannerHover } from 'entities/BannerHover';
 import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
-import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
 
 export interface IFilm {
-  width: number;
+  width?: number;
+  id: string;
   name: { ru: string; en: string };
   img: string;
   price: boolean;

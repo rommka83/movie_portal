@@ -1,5 +1,4 @@
 import React from 'react';
-import PromoSlider from 'widgets/PromoSlider';
 import styles from './home.module.css';
 import test from '../../temp/DB/test.json';
 import { IFilm } from 'entities/MovieBadge';

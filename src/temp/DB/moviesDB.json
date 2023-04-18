@@ -1,6 +1,7 @@
 {
   "movies": [
     {
+      "id": "string",
       "name": { "ru": "string", "en": "string" },
       "img": "string",
       "category": "string (надо буквально две категории?)",
@@ -10,7 +11,10 @@
       "country": "string",
       "genre": { "ru": ["string"], "en": ["string"] },
       "duration": "string",
-      "actors": [{ "name": "string", "films": ["string", "string"] }],
+      "(возможно здесь надо создавать отдельную таблицу, потаму что актёры могут повторяться)": "",
+      "actors": [
+        { "name": "string", "foto": "string", "films": ["string", "string"] }
+      ],
       "trailer": "string",
       "description": "string",
       "comments": "string",

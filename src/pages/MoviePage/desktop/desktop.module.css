@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.playerAndDescription {
+  display: flex;
+  /* grid-template-columns: 1fr 0.4fr;
+  grid-column-gap: 40px; */
+}
+.player {
+  grid-column: 1;
+  height: fit-content;
+  position: sticky;
+  top: 0;
+  margin-right: 40px;
+  width: 70%;
+}
+.playerWrapper {
+  height: fit-content;
+}
+.description {
+  grid-column: 2;
+}
+.simulyar {
+}
+.ActorsCreators {
+}
+.AdditionalMaterials {
+}
+.comments {
+}
+.allDvices {
+}
