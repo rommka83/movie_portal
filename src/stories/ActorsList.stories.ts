@@ -29,7 +29,7 @@ const meta = {
       {
         id: '24',
         name: 'Одри Флеро',
-        foto: 'https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60',
+        foto: '',
         films: [],
       },
     ],

@@ -61,5 +61,8 @@
     "Portal rating": "Portal rating",
     "estimate": "estimate",
     "ratings": "ratings"
+  },
+  "Player": {
+    "trailer": "trailer"
   }
 }

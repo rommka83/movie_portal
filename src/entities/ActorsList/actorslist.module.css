@@ -21,6 +21,17 @@
   background-color: var(--green);
   cursor: pointer;
 }
+.noPerson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border: 5px solid var(--gray-light);
+  border-radius: 8px;
+  background-color: var(--gray-798);
+  cursor: pointer;
+}
 .link {
   display: flex;
   flex-direction: column;

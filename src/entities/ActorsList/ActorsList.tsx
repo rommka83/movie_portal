@@ -21,7 +21,14 @@ export function ActorsList({ actors, reiting }: Iprops) {
         return (
           <li className={styles.item}>
             <a href={`/ActorPage/${el.id}/${el.name}`} className={styles.link}>
-              <img src={el.foto} alt={el.name} className={styles.pic} />
+              {el.foto !== '' ? (
+                <img src={el.foto} alt={el.name} className={styles.pic} />
+              ) : (
+                <div
+                  className={classNames(styles.noPerson, 'icon-avatar_56__0')}
+                />
+              )}
+
               {el.name.split(' ').map((e) => {
                 return <p className={styles.name}>{e}</p>;
               })}
