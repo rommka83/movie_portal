@@ -1,1 +1,1 @@
-export { AgeRestrictions } from './AgeRestrictions';
+export { AgeRestrictions as default } from './AgeRestrictions';

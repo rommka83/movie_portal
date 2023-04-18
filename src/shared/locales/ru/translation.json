@@ -1,61 +1,69 @@
 {
-	"Welcome to React": "Привет",
-	"navList": {
-		"Home": "Главная",
-		"MovieList": "Список фильмов",
-		"MoviePage": "Страница фильма",
-		"ActorPage": "Страница актёра",
-		"Authorization": "Авторизация",
-		"MovieReviews": "Отзывы на фильм",
-		"AdminPanel": "Админка"
-	},
-	"footer": {
-		"AboutUs": "О нас",
-		"AboutCompany": "О компании",
-		"Jobs": "Вакансии",
-		"BetaProgram": "Программа бета-тестирования",
-		"InformationForPartners": "Информация для партнёров",
-		"AdvertisingPlacement": "Размещение рекламы",
-		"TermsOfUse": "Пользовательское соглашение",
-		"PrivacyPolicy": "Политика конфиденциальности",
-		"Compliance": "Комплаенс",
-		"Sections": "Разделы",
-		"MyIvi": "Мой Иви",
-		"WhatsNew": "Что нового",
-		"Movies": "Фильмы",
-		"Series": "Сериалы",
-		"Cartoons": "Мультфильмы",
-		"TvChannels": "ТВ-каналы",
-		"WhatToSee": "Что посмотреть",
-		"CertificateActivation": "Активация сертификата",
-		"Support": "Служба поддержки",
-		"WeAreAlwaysReadyToHelpYou": "Мы всегда готовы вам помочь.",
-		"OurOperatorsAreOnline": "Наши операторы онлайн 24/7",
-		"WriteInChat": "Написать в чате",
-		"AnswersOnQuestions": "Ответы на вопросы",
-		"WatchMoviesWithoutAds": "Смотрите фильмы, сериалы и мультфильмы без рекламы",
-		"DownloadTo": "Загрузить в",
-		"AvailableIn": "Доступно в",
-		"LookAt": "Смотрите на",
-		"AllDevices": "Все устройства",
-		"Catalog": "Каталог",
-		"Search": "Поиск",
-		"Profile": "Профиль",
-		"More": "Ещё"
-	},
-	"header": {
-		"MyIvi": "Мой Иви",
-		"WhatsNew": "Что нового",
-		"Movies": "Фильмы",
-		"Series": "Сериалы",
-		"Cartoons": "Мультфильмы",
-		"TvChannels": "ТВ-каналы",
-		"Watch30DaysForFree": "Смотреть 30 дней бесплатно"
-	},
-	"topChart": {
-		"spectacularity": "эффектность",
-		"actors": "актеры",
-		"plot": "сюжет",
-		"directing": "режиссура"
-	}
+  "Welcome to React": "Привет",
+  "navList": {
+    "Home": "Главная",
+    "MovieList": "Список фильмов",
+    "MoviePage": "Страница фильма",
+    "ActorPage": "Страница актёра",
+    "Authorization": "Авторизация",
+    "MovieReviews": "Отзывы на фильм",
+    "AdminPanel": "Админка"
+  },
+  "footer": {
+    "AboutUs": "О нас",
+    "AboutCompany": "О компании",
+    "Jobs": "Вакансии",
+    "BetaProgram": "Программа бета-тестирования",
+    "InformationForPartners": "Информация для партнёров",
+    "AdvertisingPlacement": "Размещение рекламы",
+    "TermsOfUse": "Пользовательское соглашение",
+    "PrivacyPolicy": "Политика конфиденциальности",
+    "Compliance": "Комплаенс",
+    "Sections": "Разделы",
+    "MyIvi": "Мой Иви",
+    "WhatsNew": "Что нового",
+    "Movies": "Фильмы",
+    "Series": "Сериалы",
+    "Cartoons": "Мультфильмы",
+    "TvChannels": "ТВ-каналы",
+    "WhatToSee": "Что посмотреть",
+    "CertificateActivation": "Активация сертификата",
+    "Support": "Служба поддержки",
+    "WeAreAlwaysReadyToHelpYou": "Мы всегда готовы вам помочь.",
+    "OurOperatorsAreOnline": "Наши операторы онлайн 24/7",
+    "WriteInChat": "Написать в чате",
+    "AnswersOnQuestions": "Ответы на вопросы",
+    "WatchMoviesWithoutAds": "Смотрите фильмы, сериалы и мультфильмы без рекламы",
+    "DownloadTo": "Загрузить в",
+    "AvailableIn": "Доступно в",
+    "LookAt": "Смотрите на",
+    "AllDevices": "Все устройства",
+    "Catalog": "Каталог",
+    "Search": "Поиск",
+    "Profile": "Профиль",
+    "More": "Ещё"
+  },
+  "topChart": {
+    "spectacularity": "эффектность",
+    "actors": "актеры",
+    "plot": "сюжет",
+    "directing": "режиссура"
+  },
+  "header": {
+    "MyIvi": "Мой Иви",
+    "WhatsNew": "Что нового",
+    "Movies": "Фильмы",
+    "Series": "Сериалы",
+    "Cartoons": "Мультфильмы",
+    "TvChannels": "ТВ-каналы",
+    "Watch30DaysForFree": "Смотреть 30 дней бесплатно"
+  },
+  "Grading": {
+    "Portal rating": "Рейтинг портала",
+    "estimate": "оценить",
+    "ratings": "оценок"
+  },
+  "Player": {
+    "trailer": "трейлер"
+  }
 }

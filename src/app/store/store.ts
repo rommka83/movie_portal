@@ -1,7 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import filters from './filterSlice';
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    filters: filters.reducer,
+  },
 });
 
 export type AppDispatch = typeof store.dispatch;
