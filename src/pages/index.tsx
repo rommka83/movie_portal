@@ -14,11 +14,11 @@ export const Routing = () => {
   return (
     <Routes>
       <Route path='/' element={<General />}>
-        <Route path='/ActorPage' element={<ActorPage />} />
+        <Route path='/ActorPage/:id/:name' element={<ActorPage />} />
         <Route path='/Authorization' element={<Authorization />} />
         <Route path='/' element={<Home />} />
         <Route path='/MovieList' element={<MovieList />} />
-        <Route path='/MoviePage' element={<MoviePage />} />
+        <Route path='/MoviePage/:id/:name' element={<MoviePage />} />
         <Route path='/MovieReviews' element={<MovieReviews />} />
         <Route path='/AdminPanel' element={<AdminPanel />} />
       </Route>
