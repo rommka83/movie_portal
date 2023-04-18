@@ -18,6 +18,7 @@
 	color: var(--white);
 	font-family: "iviSans", Arial, Helvetica, Helvetica Neue, FreeSans, sans-serif;
 }
+
 html,
 body {
 	background: #100e19;
@@ -25,4 +26,23 @@ body {
 
 #root {
 	height: 100%;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.swiper .swiper-button-next {
+  color: rgb(28, 26, 26);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--gray-light) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 34px !important;
 }

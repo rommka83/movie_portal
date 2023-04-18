@@ -1,17 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { AgeRestrictions } from '../shared/bisnes/AgeRestrictions';
+import { BlockChart } from '../shared/bisnes/BlockChart';
 
 const meta = {
-  title: 'Example/AgeRestrictions',
-  component: AgeRestrictions,
+  title: 'Example/BlockChart',
+  component: BlockChart,
   tags: ['autodocs'],
-  args: { age: 12 },
-
+  args: { spectacularity: 50, actors: 50, plot: 50, directing: 50, width: 40 },
   parameters: {
     layout: 'centered',
   },
-} satisfies Meta<typeof AgeRestrictions>;
+} satisfies Meta<typeof BlockChart>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

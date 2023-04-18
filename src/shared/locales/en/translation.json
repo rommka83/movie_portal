@@ -51,5 +51,11 @@
 		"Cartoons": "Cartoons",
 		"TvChannels": "TV-channels",
 		"Watch30DaysForFree": "Watch 30 days for free"
+	},
+	"topChart": {
+		"spectacularity": "spectacularity",
+		"actors": "actors",
+		"plot": "plot",
+		"directing": "directing"
 	}
 }

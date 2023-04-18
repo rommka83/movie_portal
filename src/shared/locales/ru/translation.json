@@ -51,5 +51,11 @@
 		"Cartoons": "Мультфильмы",
 		"TvChannels": "ТВ-каналы",
 		"Watch30DaysForFree": "Смотреть 30 дней бесплатно"
+	},
+	"topChart": {
+		"spectacularity": "эффектность",
+		"actors": "актеры",
+		"plot": "сюжет",
+		"directing": "режиссура"
 	}
 }

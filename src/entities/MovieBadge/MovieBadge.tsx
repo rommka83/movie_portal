@@ -1,48 +1,78 @@
 import React from 'react';
 import styles from './moviebadge.module.css';
-import { PosterCards } from 'shared/PosterCards/PosterCards';
-import { AgeRestrictions } from 'shared/AgeRestrictions';
+import { PosterCards } from 'shared/bisnes/PosterCards/PosterCards';
+import { AgeRestrictions } from 'shared/bisnes/AgeRestrictions';
 import { CardTitle } from 'shared/ui/CardTitle/CardTitle';
-import { SvgIcon } from 'shared/ui/SvgIcon';
+import { BannerHover } from 'entities/BannerHover';
+import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
+import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
 
-export function MovieBadge() {
+export interface IFilm {
+  width: number;
+  name: { ru: string; en: string };
+  img: string;
+  price: boolean;
+  ageRestrictions: number;
+  year: string;
+  country: string;
+  duration: string;
+  genre: { ru: string[]; en: string[] };
+  reiting: {
+    grade: string;
+    spectacularity: number;
+    actors: number;
+    plot: number;
+    directing: number;
+  };
+}
+
+export function MovieBadge({
+  width,
+  name,
+  img,
+  ageRestrictions,
+  price,
+  year,
+  country,
+  duration,
+  reiting,
+  genre,
+}: IFilm) {
+  const { i18n } = useTranslation();
+  const lng = i18n.language;
+
   return (
-    <article className={styles.wrapper}>
+    <article className={styles.wrapper} style={{ width: `${width}px` }}>
       <div className={styles.banner}>
         <div className={styles.bannerMain}>
           <div className={styles.pic}>
-            <PosterCards
-              src='https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/5ec7dbd7-1cab-4eae-8846-8be00c56dc0a/300x450'
-              name='get-kinopoisk-image'
-            />
+            <PosterCards src={img} name={lng === 'ru' ? name.ru : name.en} />
           </div>
           <div className={styles.age}>
-            <AgeRestrictions age={16} />
+            <AgeRestrictions age={ageRestrictions} />
           </div>
         </div>
         <div className={styles.bannerHover}>
-          <div className={styles.bannerHoverWrapper}>
-            <ul className={styles.bannerHoverList}>
-              <li className={styles.bannerHoverItem}>
-                <SvgIcon type='Bookmark' size={35} />
-              </li>
-              <li className={styles.bannerHoverItem}>
-                <SvgIcon type='Magic' size={35} />
-              </li>
-              <li className={styles.bannerHoverItem}>
-                <SvgIcon type='Star' size={35} />
-              </li>
-              <li className={styles.bannerHoverItem}>
-                <SvgIcon type='DashCircle' size={35} />
-              </li>
-            </ul>
-          </div>
+          <BannerHover
+            grade={reiting.grade}
+            spectacularity={reiting.spectacularity}
+            actors={reiting.actors}
+            plot={reiting.plot}
+            directing={reiting.directing}
+            year={year}
+            country={country}
+            duration={duration}
+            genre={lng === 'ru' ? genre.ru[0] : genre.en[0]}
+          />
         </div>
       </div>
       <div className={styles.title}>
-        <CardTitle children='Название фильма' />
+        <CardTitle children={lng === 'ru' ? name.ru : name.en} />
       </div>
-      <div className={styles.statusPrice}>Бесплатно</div>
+      <div className={styles.statusPrice}>
+        <PriceBadge color={'pink'} children={'price'} />
+      </div>
     </article>
   );
 }
