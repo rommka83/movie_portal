@@ -15,15 +15,13 @@ type Story = StoryObj<typeof PriceBadge>;
 
 export const Pink: Story = {
   args: {
-    color: 'pink',
-    children: 'Подписка'
+    price: true
   },
 };
 
 export const Gray: Story = {
   args: {
-    color: 'gray',
-    children: 'Бесплатно'
+    price: false
   },
 };
 

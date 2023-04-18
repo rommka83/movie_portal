@@ -1,26 +1,55 @@
 {
   "movies": [
     {
-      "name": { "ru": "Правосудие", "en": "Justice" },
-      "img": "https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85",
+      "id": "1",
+      "name": {
+        "ru": "Правосудие",
+        "en": "Justice"
+      },
+      "images": {
+        "small": "https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85",
+        "large": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/03674ff6e27da1cd69f1f0e9337249.jpg/1216x524/?q=85"
+      },
+      "logo": "https://thumbs.dfs.ivi.ru/storage30/contents/a/a/c55629c1cb82b0ac7c0d9aca539d89.png/x200/",
       "category": "Сериалы с высоким рейтингом по подписке",
       "price": true,
       "ageRestrictions": 16,
       "year": "2021-2023",
       "country": "Турция",
       "genre": {
-        "ru": ["Детективы", "Драмы", "Триллеры"],
-        "en": ["Detectives", "Dramas", "Thrillers"]
+        "ru": [
+          "Детективы",
+          "Драмы",
+          "Триллеры"
+        ],
+        "en": [
+          "Detectives",
+          "Dramas",
+          "Thrillers"
+        ]
       },
       "duration": "1 сезон",
       "actors": [
-        { "name": "Каан Урганджиогл", "films": [] },
-        { "name": "Пынар Дениз", "films": [] },
-        { "name": "Хусейн Авни Даньял", "films": [] },
-        { "name": "Мехмет Иилмаз Ак", "films": [] }
+        {
+          "name": "Каан Урганджиогл",
+          "films": []
+        },
+        {
+          "name": "Пынар Дениз",
+          "films": []
+        },
+        {
+          "name": "Хусейн Авни Даньял",
+          "films": []
+        },
+        {
+          "name": "Мехмет Иилмаз Ак",
+          "films": []
+        }
       ],
       "trailer": "string",
       "description": "Уважаемый прокурор узнаёт, что его младший брат стал подозреваемым в убийстве. Он нанимает талантливую девушку-адвоката, и напряжённое расследование переплетается с не менее закрученной историей любви. Остросюжетная детективная драма со звездой сериала «Чёрная любовь» Кааном Урганджиоглу.",
+      "synopsis": "Звезда «Тетриса» и «Нулевого пациента» Никита Ефремов бросает престижную работу ради великой цели",
       "comments": "string",
       "reiting": {
         "grade": "8.3",
@@ -31,29 +60,172 @@
       }
     },
     {
-      "name": { "ru": "1 + 1", "en": "1 + 1" },
-      "img": "https://thumbs.dfs.ivi.ru/storage2/contents/6/1/0ceca03c51c3d38f34bdf3fd0dd2c8.jpg/234x360//?q=85",
+      "id": "2",
+      "name": {
+        "ru": "1 + 1",
+        "en": "1 + 1"
+      },
+      "images": {
+        "small": "https://thumbs.dfs.ivi.ru/storage2/contents/6/1/0ceca03c51c3d38f34bdf3fd0dd2c8.jpg/234x360//?q=85",
+        "large": "https://thumbs.dfs.ivi.ru/storage30/contents/c/c/e934645a5e1cc379ebd22e1a3bd3fa.jpg/1216x524/?q=85"
+      },
+      "logo": "https://thumbs.dfs.ivi.ru/storage30/contents/a/a/c55629c1cb82b0ac7c0d9aca539d89.png/x200/",
       "category": "Лучшие драмы",
       "price": false,
       "ageRestrictions": 16,
       "year": "2011",
       "country": "Франция",
       "genre": {
-        "ru": ["Драмы", "Комедии", "Биография"],
-        "en": ["Drama", "Comedy", "Biography"]
+        "ru": [
+          "Драмы",
+          "Комедии",
+          "Биография"
+        ],
+        "en": [
+          "Drama",
+          "Comedy",
+          "Biography"
+        ]
       },
       "duration": "1 ч. 52 мин.",
       "actors": [
-        { "name": "Франсуа Клюзе", "films": [] },
-        { "name": "Омар Си", "films": [] },
-        { "name": "Анн Ле Ни", "films": [] },
-        { "name": "Одри Флеро", "films": [] }
+        {
+          "name": "Франсуа Клюзе",
+          "films": []
+        },
+        {
+          "name": "Омар Си",
+          "films": []
+        },
+        {
+          "name": "Анн Ле Ни",
+          "films": []
+        },
+        {
+          "name": "Одри Флеро",
+          "films": []
+        }
       ],
       "trailer": "string",
       "description": "Прикованный к инвалидному креслу аристократ нанимает себе в помощники человека, который подходит для этой работы меньше всего – только что освободившегося из тюрьмы темнокожего парня. Трогательная и глубокая комедийная драма, получившая премии «Сезар», «Жорж» и «Гойя».",
+      "synopsis": "Звезда «Тетриса» и «Нулевого пациента» Никита Ефремов бросает престижную работу ради великой цели",
       "comments": "string",
       "reiting": {
         "grade": "8.9",
+        "spectacularity": 90,
+        "actors": 90,
+        "plot": 70,
+        "directing": 70
+      }
+    },
+    {
+      "id": "3",
+      "name": {
+        "ru": "Здоровый человек",
+        "en": "Healthy man"
+      },
+      "images": {
+        "small": "https://thumbs.dfs.ivi.ru/storage28/contents/2/4/8678adf03eb630b16a1ba302ce938d.jpg/1216x1358/?q=85",
+        "large": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/03674ff6e27da1cd69f1f0e9337249.jpg/1216x524/?q=85"
+      },
+      "logo": "https://thumbs.dfs.ivi.ru/storage30/contents/a/a/c55629c1cb82b0ac7c0d9aca539d89.png/x200/",
+      "category": "Лучшие драмы",
+      "price": true,
+      "ageRestrictions": 16,
+      "year": "2023",
+      "country": "Россия",
+      "genre": {
+        "ru": [
+          "Драмы",
+          "Русские"
+        ],
+        "en": [
+          "Drama",
+          "Russians"
+        ]
+      },
+      "duration": "1 ч. 41 мин.",
+      "actors": [
+        {
+          "name": "Никита Ефремов",
+          "films": []
+        },
+        {
+          "name": "Ирина Старшенбаум",
+          "films": []
+        },
+        {
+          "name": "Евгений Ткачук",
+          "films": []
+        },
+        {
+          "name": "Олег Чугунов",
+          "films": []
+        }
+      ],
+      "trailer": "string",
+      "description": "У Егора счастливая семья, работа на телевидении и налаженная жизнь, которая однажды перестаёт его устраивать. Он становится волонтёром в детских больницах и поисковых отрядах, отодвигая на задний план всё, что было важно раньше. Никита Ефремов и Ирина Старшенбаум в драме Петра Тодоровского о жизненных приоритетах. Фильм заслужил тёплый приём критиков, россыпь премий и призов на престижных кинофестивалях.",
+      "synopsis": "Звезда «Тетриса» и «Нулевого пациента» Никита Ефремов бросает престижную работу ради великой цели",
+      "comments": "string",
+      "reiting": {
+        "grade": "7.9",
+        "spectacularity": 90,
+        "actors": 90,
+        "plot": 70,
+        "directing": 70
+      }
+    },
+    {
+      "id": "4",
+      "name": {
+        "ru": "Миллионер на три дня",
+        "en": "Millionaire for three days"
+      },
+      "images": {
+        "small": "https://thumbs.dfs.ivi.ru/storage28/contents/9/1/e7a3867356dddf499ebe21cbd7f1d5.jpg/1216x1358/?q=85",
+        "large": "https://thumbs.dfs.ivi.ru/storage37/contents/e/2/7e9ed26a8afa96228adfea04d79521.jpg/1216x524/?q=85"
+      },
+      "logo": "https://thumbs.dfs.ivi.ru/storage23/contents/7/4/5caae1d15954e255b2c7181ec3ed21.png/x200/",
+      "category": "Лучшие драмы",
+      "price": true,
+      "ageRestrictions": 18,
+      "year": "2022",
+      "country": "Великобритания",
+      "genre": {
+        "ru": [
+          "Комедии",
+          "Зарубежные"
+        ],
+        "en": [
+          "Comedy",
+          "Foreign"
+        ]
+      },
+      "duration": "1 ч. 41 мин.",
+      "actors": [
+        {
+          "name": "Колм Мини",
+          "films": []
+        },
+        {
+          "name": "Джонас Армстронг",
+          "films": []
+        },
+        {
+          "name": "Джеймс Берроуз",
+          "films": []
+        },
+        {
+          "name": "Робби Ги",
+          "films": []
+        }
+      ],
+      "trailer": "string",
+      "description": "Рыбак Кёрли работает на траулере в портовом Гримсби. Когда-то этот город был одним из главных портов страны, а сейчас от былого величия остались одни воспоминания. Как и многие поколения мужчин Гримсби, Кёрли нечасто сходит на твёрдую землю, проводя большую часть времени в море. Но каждое возвращение – настоящий ритуал, когда заработавший деньжат рыбак может спустить весь нехитрый капитал на кутёж.",
+      "synopsis": "Трое рыбаков решаются на дерзкое ограбление босса. Британская комедия в лучших традициях жанра",
+      "comments": "string",
+      "reiting": {
+        "grade": "6.6",
         "spectacularity": 90,
         "actors": 90,
         "plot": 70,

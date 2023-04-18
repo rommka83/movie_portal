@@ -8,12 +8,19 @@ import { CategoryFilms } from 'widgets/CategoryFilms';
 let [obj, obj2] = test.movies;
 let arr: IFilm[] = Array(20).fill(obj);
 let arr2: IFilm[] = Array(20).fill(obj2);
+let arr3: IFilm[] = Array(4).fill(test.movies);
+
+
 
 export function Home() {
   return (
-    <div className='container'>
-      <CategoryFilms title={obj.category} movies={arr} />
-      <CategoryFilms title={obj2.category} movies={arr2} />
-    </div>
+    <>
+      <PromoSlider movies={test.movies} />
+      <div className='container'>
+        <CategoryFilms title={obj.category} movies={arr} />
+        <CategoryFilms title={obj2.category} movies={arr2} />
+      </div>
+    </>
+
   );
 }
