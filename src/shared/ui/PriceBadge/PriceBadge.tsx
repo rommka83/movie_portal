@@ -4,19 +4,17 @@ import cn from "classnames";
 
 
 interface IProps {
-	color: 'pink' | 'gray';
-	children: React.ReactNode
+	price: boolean
 }
 
 
-export const PriceBadge = ({ color, children }: IProps) => {
-	const mainCn = cn(
-		styles.priceBadge,
-		styles[color]
-	)
+export const PriceBadge = ({ price }: IProps) => {
+
 
 	return (
-		<span className={mainCn}>{children}</span>
+		<span className={cn(styles.priceBadge, price ? styles.pink : styles.gray)}>
+			{price ? 'Подписка' : 'Бесплатно'}
+		</span>
 	);
 }
 

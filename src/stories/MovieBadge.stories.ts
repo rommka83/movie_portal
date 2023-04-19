@@ -7,9 +7,13 @@ const meta = {
   component: MovieBadge,
   tags: ['autodocs'],
   args: {
+    id: '1',
     width: 100,
     name: { ru: 'Правосудие', en: 'Justice' },
-    img: 'https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85',
+    images: {
+      small: 'https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85',
+      large: 'https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85'
+    },
     price: true,
     ageRestrictions: 22,
     year: '2222',
@@ -32,5 +36,4 @@ const meta = {
 
 export default meta;
 type Story = StoryObj<typeof meta>;
-
 export const Big: Story = {};

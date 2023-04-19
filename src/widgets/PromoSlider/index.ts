@@ -1,1 +1,1 @@
-export { PromoSlider as default } from "./PromoSlider";
+export { PromoSlider } from "./PromoSlider";

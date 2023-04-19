@@ -4,6 +4,7 @@ import { IFilm, MovieBadge } from 'entities/MovieBadge';
 import { nanoid } from '@reduxjs/toolkit';
 import styles from './categoryfilms.module.css';
 import { UseMedia } from 'shared/hooks/useMedia';
+import { Link } from 'react-router-dom';
 
 interface IProps {
   title: string;
@@ -83,24 +84,27 @@ export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
             {movies.map((obj) => {
               return (
                 <li className={styles.item} key={nanoid()}>
-                  <MovieBadge
-                    width={cardWidth !== undefined ? cardWidth : 0}
-                    name={obj.name}
-                    img={obj.img}
-                    price={obj.price}
-                    ageRestrictions={obj.ageRestrictions}
-                    year={obj.year}
-                    country={obj.country}
-                    duration={obj.duration}
-                    reiting={{
-                      grade: obj.reiting.grade,
-                      spectacularity: obj.reiting.spectacularity,
-                      actors: obj.reiting.actors,
-                      plot: obj.reiting.plot,
-                      directing: obj.reiting.directing,
-                    }}
-                    genre={obj.genre}
-                  />
+                  <Link to={`/MoviePage/${obj.id}/${obj.name.en}`}>
+                    <MovieBadge
+                      width={cardWidth !== undefined ? cardWidth : 0}
+                      name={obj.name}
+                      price={obj.price}
+                      ageRestrictions={obj.ageRestrictions}
+                      year={obj.year}
+                      country={obj.country}
+                      duration={obj.duration}
+                      reiting={{
+                        grade: obj.reiting.grade,
+                        spectacularity: obj.reiting.spectacularity,
+                        actors: obj.reiting.actors,
+                        plot: obj.reiting.plot,
+                        directing: obj.reiting.directing,
+                      }}
+                      genre={obj.genre}
+                      id={obj.id}
+                      images={obj.images}
+                    />
+                  </Link>
                 </li>
               );
             })}
@@ -109,11 +113,11 @@ export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
       </div>
       {Math.round(ofset - cardWidth * amountCards - 20 * (amountCards - 1)) !==
         -scrollWidth && (
-        <div
-          className={`${styles.controlR} ${styles.control}  icon-arrowRight_8x20__0`}
-          onClick={moveLeft}
-        />
-      )}
+          <div
+            className={`${styles.controlR} ${styles.control}  icon-arrowRight_8x20__0`}
+            onClick={moveLeft}
+          />
+        )}
       {ofset < 0 && (
         <div
           className={`${styles.controlL} ${styles.control}  icon-arrowLeft_8x20__0`}

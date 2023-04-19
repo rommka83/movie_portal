@@ -1,17 +1,19 @@
 import React from 'react';
 import styles from './moviebadge.module.css';
 import { PosterCards } from 'shared/bisnes/PosterCards/PosterCards';
-import { AgeRestrictions } from 'shared/bisnes/AgeRestrictions';
 import { CardTitle } from 'shared/ui/CardTitle/CardTitle';
 import { BannerHover } from 'entities/BannerHover';
 import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
-import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
+import AgeRestrictions from 'shared/bisnes/AgeRestrictions';
 
 export interface IFilm {
-  width: number;
+  id: string;
+  width?: number;
   name: { ru: string; en: string };
-  img: string;
+  images: { small: string; large: string };
+  synopsis?: string;
+  logo?: string;
   price: boolean;
   ageRestrictions: number;
   year: string;
@@ -30,7 +32,7 @@ export interface IFilm {
 export function MovieBadge({
   width,
   name,
-  img,
+  images,
   ageRestrictions,
   price,
   year,
@@ -47,7 +49,10 @@ export function MovieBadge({
       <div className={styles.banner}>
         <div className={styles.bannerMain}>
           <div className={styles.pic}>
-            <PosterCards src={img} name={lng === 'ru' ? name.ru : name.en} />
+            <PosterCards
+              src={images.small}
+              name={lng === 'ru' ? name.ru : name.en}
+            />
           </div>
           <div className={styles.age}>
             <AgeRestrictions age={ageRestrictions} />
@@ -71,7 +76,7 @@ export function MovieBadge({
         <CardTitle children={lng === 'ru' ? name.ru : name.en} />
       </div>
       <div className={styles.statusPrice}>
-        <PriceBadge color={'pink'} children={'price'} />
+        <PriceBadge price={price} />
       </div>
     </article>
   );

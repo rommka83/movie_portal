@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: fit-content;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -14,8 +15,15 @@
 
 .banner {
   position: relative;
+  height: 100%;
   margin-bottom: 10px;
   transition: transform 0.3s ease-in-out;
+}
+.bannerMain {
+  height: 100%;
+}
+.pic {
+  height: 100%;
 }
 .bannerHover {
   position: absolute;

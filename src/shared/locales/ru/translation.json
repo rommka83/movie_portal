@@ -99,5 +99,13 @@
 		"actors": "актеры",
 		"plot": "сюжет",
 		"directing": "режиссура"
+	},
+	"Grading": {
+		"Portal rating": "Рейтинг портала",
+		"estimate": "оценить",
+		"ratings": "оценок"
+	},
+	"Player": {
+		"trailer": "трейлер"
 	}
 }
