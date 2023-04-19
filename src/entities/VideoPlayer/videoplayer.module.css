@@ -1,7 +1,6 @@
 .video {
   width: 100%;
-}
-.root {
+  border-radius: 8px;
 }
 .list {
   display: flex;
@@ -23,8 +22,4 @@
 }
 .treilerPlay > span {
   margin-left: 10px;
-}
-.bookmark {
-}
-.download {
 }

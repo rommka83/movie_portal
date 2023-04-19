@@ -31,8 +31,13 @@
   width: fit-content;
   height: fit-content;
   margin-left: auto;
-  padding: 5px;
+  padding: 5px 10px;
   background-color: var(--gray-88);
   border: 1px solid var(--white);
   border-radius: 8px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+.btn:hover {
+  opacity: 1;
 }

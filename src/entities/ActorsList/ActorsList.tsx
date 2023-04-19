@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './actorslist.module.css';
 import classNames from 'classnames';
+import { nanoid } from '@reduxjs/toolkit';
 
 export interface IActor {
   id: string;
@@ -19,7 +20,7 @@ export function ActorsList({ actors, reiting }: Iprops) {
       <li className={classNames(styles.item, styles.reiting)}>{reiting}</li>
       {actors.slice(0, 4).map((el) => {
         return (
-          <li className={styles.item}>
+          <li className={styles.item} key={nanoid()}>
             <a href={`/ActorPage/${el.id}/${el.name}`} className={styles.link}>
               {el.foto !== '' ? (
                 <img src={el.foto} alt={el.name} className={styles.pic} />
@@ -30,7 +31,11 @@ export function ActorsList({ actors, reiting }: Iprops) {
               )}
 
               {el.name.split(' ').map((e) => {
-                return <p className={styles.name}>{e}</p>;
+                return (
+                  <p className={styles.name} key={nanoid()}>
+                    {e}
+                  </p>
+                );
               })}
             </a>
           </li>
