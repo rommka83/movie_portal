@@ -2,8 +2,16 @@ import styles from "./headernav.module.css";
 import Link from "shared/ui/Link";
 import { useTranslation } from "react-i18next";
 import { UseMedia } from "shared/hooks/useMedia";
+import { MouseEvent } from "react";
+import classNames from "classnames";
+import { HeaderDropdownType } from "widgets/Header";
 
-export function HeaderNav() {
+interface IHeaderNav {
+	onMouseEnter: (event: MouseEvent<HTMLLIElement>) => void;
+	onMouseLeave: (event: MouseEvent<HTMLLIElement>) => void;
+	type: HeaderDropdownType | "";
+}
+export function HeaderNav({ onMouseEnter, onMouseLeave, type }: IHeaderNav) {
 	const tablet = UseMedia("(max-width: 1253px)");
 	const { t } = useTranslation();
 	if (tablet) return null;
@@ -16,7 +24,14 @@ export function HeaderNav() {
 				<li className={styles.item}>
 					<Link to='https://www.ivi.ru/new'>{t("header.WhatsNew")}</Link>
 				</li>
-				<li className={styles.item}>
+				<li
+					data-type='movies'
+					className={classNames(styles.item, {
+						[styles.active]: type === "movies",
+					})}
+					onMouseEnter={onMouseEnter}
+					onMouseLeave={onMouseLeave}
+				>
 					<Link to='/MovieList'>{t("header.Movies")}</Link>
 				</li>
 				<li className={styles.item}>
