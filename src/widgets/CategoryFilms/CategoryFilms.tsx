@@ -113,11 +113,11 @@ export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
       </div>
       {Math.round(ofset - cardWidth * amountCards - 20 * (amountCards - 1)) !==
         -scrollWidth && (
-        <div
-          className={`${styles.controlR} ${styles.control}  icon-arrowRight_8x20__0`}
-          onClick={moveLeft}
-        />
-      )}
+          <div
+            className={`${styles.controlR} ${styles.control}  icon-arrowRight_8x20__0`}
+            onClick={moveLeft}
+          />
+        )}
       {ofset < 0 && (
         <div
           className={`${styles.controlL} ${styles.control}  icon-arrowLeft_8x20__0`}

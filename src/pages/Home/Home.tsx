@@ -10,6 +10,9 @@ import { current } from '@reduxjs/toolkit';
 let [obj, obj2] = test.movies;
 let arr: IFilm[] = Array(20).fill(obj);
 let arr2: IFilm[] = Array(20).fill(obj2);
+let arr3: IFilm[] = Array(4).fill(test.movies);
+
+
 
 export function Home() {
   const filters = useAppSelector((state) => state.filters);
