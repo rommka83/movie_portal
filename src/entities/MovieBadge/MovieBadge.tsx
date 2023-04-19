@@ -49,7 +49,10 @@ export function MovieBadge({
       <div className={styles.banner}>
         <div className={styles.bannerMain}>
           <div className={styles.pic}>
-            <PosterCards src={images?.small} name={lng === 'ru' ? name.ru : name.en} />
+            <PosterCards
+              src={images.small}
+              name={lng === 'ru' ? name.ru : name.en}
+            />
           </div>
           <div className={styles.age}>
             <AgeRestrictions age={ageRestrictions} />
