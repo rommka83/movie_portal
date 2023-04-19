@@ -29,6 +29,14 @@
         ]
       },
       "duration": "1 сезон",
+      "creators": [
+        {
+          "name": "Али Билгин",
+          "position": "режиссёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage30/contents/9/b/19e14e30ce126a7e8c1f2e865e007a.jpg/120x144/?q=85",
+          "films": []
+        }
+      ],
       "actors": [
         {
           "id": "11",
@@ -96,6 +104,20 @@
         ]
       },
       "duration": "1 ч. 52 мин.",
+      "creators": [
+        {
+          "name": "Оливье Накаш",
+          "position": "режиссёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage37/contents/4/b/57c06f0d0149b0a4965acf8f339437.jpg/120x144/?q=85",
+          "films": []
+        },
+        {
+          "name": "Эрик Толедано",
+          "position": "режиссёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage4/contents/9/0/fc755434383f5f1e17e5cbb5c0edb1.jpg/120x144/?q=85",
+          "films": []
+        }
+      ],
       "actors": [
         {
           "id": "21",
@@ -161,6 +183,14 @@
         ]
       },
       "duration": "1 ч. 41 мин.",
+      "creators": [
+        {
+          "name": "Петр Тодоровский",
+          "position": "режиссёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage6/contents/8/9/6716c49f954afadab66646a3c79e54.jpg/120x144/?q=85",
+          "films": []
+        }
+      ],
       "actors": [
         {
           "id": "31",
@@ -226,6 +256,14 @@
         ]
       },
       "duration": "1 ч. 41 мин.",
+      "creators": [
+        {
+          "name": "Джек Спринг",
+          "position": "режиссёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage30/contents/7/5/16922fafb8d9f820c427d3f5e65a95.jpg/120x144/?q=85",
+          "films": []
+        }
+      ],
       "actors": [
         {
           "id": "41",
