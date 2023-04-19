@@ -5,7 +5,7 @@ import classNames from 'classnames';
 export interface IActor {
   id: string;
   name: string;
-  foto: string;
+  foto?: string;
   films: string[];
 }
 interface Iprops {

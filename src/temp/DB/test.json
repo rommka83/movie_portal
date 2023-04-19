@@ -7,17 +7,26 @@
         "en": "Justice"
       },
       "images": {
-        "small": "https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85",
-        "large": "https://thumbs.dfs.ivi.ru/storage29/contents/e/5/146ec3d64b497632c03c2bd5a72167.jpg/234x360/?q=85"
+        "small": "https://thumbs.dfs.ivi.ru/storage2/contents/6/1/0ceca03c51c3d38f34bdf3fd0dd2c8.jpg/234x360//?q=85",
+        "large": "https://thumbs.dfs.ivi.ru/storage30/contents/c/c/e934645a5e1cc379ebd22e1a3bd3fa.jpg/1216x524/?q=85"
       },
+      "logo": "https://thumbs.dfs.ivi.ru/storage30/contents/a/a/c55629c1cb82b0ac7c0d9aca539d89.png/x200/",
       "category": "Сериалы с высоким рейтингом по подписке",
       "price": true,
       "ageRestrictions": 16,
       "year": "2021-2023",
       "country": "Турция",
       "genre": {
-        "ru": ["Детективы", "Драмы", "Триллеры"],
-        "en": ["Detectives", "Dramas", "Thrillers"]
+        "ru": [
+          "Детективы",
+          "Драмы",
+          "Триллеры"
+        ],
+        "en": [
+          "Detectives",
+          "Dramas",
+          "Thrillers"
+        ]
       },
       "duration": "1 сезон",
       "actors": [
@@ -75,8 +84,16 @@
       "year": "2011",
       "country": "Франция",
       "genre": {
-        "ru": ["Драмы", "Комедии", "Биография"],
-        "en": ["Drama", "Comedy", "Biography"]
+        "ru": [
+          "Драмы",
+          "Комедии",
+          "Биография"
+        ],
+        "en": [
+          "Drama",
+          "Comedy",
+          "Biography"
+        ]
       },
       "duration": "1 ч. 52 мин.",
       "actors": [
@@ -134,8 +151,14 @@
       "year": "2023",
       "country": "Россия",
       "genre": {
-        "ru": ["Драмы", "Русские"],
-        "en": ["Drama", "Russians"]
+        "ru": [
+          "Драмы",
+          "Русские"
+        ],
+        "en": [
+          "Drama",
+          "Russians"
+        ]
       },
       "duration": "1 ч. 41 мин.",
       "actors": [
@@ -193,8 +216,14 @@
       "year": "2022",
       "country": "Великобритания",
       "genre": {
-        "ru": ["Комедии", "Зарубежные"],
-        "en": ["Comedy", "Foreign"]
+        "ru": [
+          "Комедии",
+          "Зарубежные"
+        ],
+        "en": [
+          "Comedy",
+          "Foreign"
+        ]
       },
       "duration": "1 ч. 41 мин.",
       "actors": [
