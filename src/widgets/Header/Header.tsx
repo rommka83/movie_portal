@@ -5,18 +5,43 @@ import { Logo } from "shared/ui/Logo/Logo";
 import { ButtonOrLink } from "shared/ui/ButtonOrLink/ButtonOrLink";
 import classNames from "classnames";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { HeaderDropdown } from "widgets/Header/HeaderDropdown";
+import { useCallback, MouseEvent, useState } from "react";
+import { HeaderMoviesFilter } from "features/HeaderMoviesFilter";
 
+export type HeaderDropdownType = "movies" | "promo" | "avatar";
 export function Header() {
 	const { t } = useTranslation();
+	const [show, setShow] = useState(false);
+	const [type, setType] = useState<HeaderDropdownType | "">("");
+	const onMouseEnter = useCallback((event: MouseEvent<HTMLLIElement>) => {
+		const type = event.currentTarget.dataset["type"] ?? "";
+		setType(type as HeaderDropdownType);
+		setShow(true);
+	}, []);
+	const onMouseLeave = useCallback(() => {
+		setTimeout(() => {
+			setShow(false);
+		}, 250);
+	}, []);
+	const onHeaderDropdownClose = useCallback(() => {
+		setType("");
+	}, []);
+
 	return (
 		<header className={styles.header}>
 			<div className={styles.headerWrapper}>
-				<div className={styles.container}>
+				<div className={classNames(styles.container, "container")}>
 					<div className={styles.content}>
-						<div className={styles.logo}>
+						<Link to='/' className={styles.logo}>
 							<Logo className={styles.logoImg} />
-						</div>
-						<HeaderNav />
+						</Link>
+						<HeaderNav
+							type={type}
+							onMouseEnter={onMouseEnter}
+							onMouseLeave={onMouseLeave}
+						/>
 					</div>
 
 					<div className={styles.wideArea}>
@@ -39,6 +64,9 @@ export function Header() {
 						</div>
 					</div>
 				</div>
+				<HeaderDropdown opened={show} onClose={onHeaderDropdownClose}>
+					<HeaderMoviesFilter />
+				</HeaderDropdown>
 			</div>
 		</header>
 	);

@@ -4,16 +4,20 @@
 }
 
 .headerWrapper {
+	position: relative;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	width: calc(80vw + 20px);
 }
 
 .container {
 	display: flex;
 	justify-content: space-between;
-	width: 80vw;
 	height: 72px;
 	border-bottom: 1px solid var(--gray-16);
+	z-index: 10;
 }
 
 .content {
