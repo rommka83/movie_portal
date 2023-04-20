@@ -2,12 +2,12 @@ import { GenreBookmarks } from 'shared/bisnes/GenreBookmarks';
 import test from '../../../temp/DB/test.json';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { IFilm } from 'entities/MovieBadge';
 import styles from './desktop.module.css';
 import { VideoPlayer } from 'entities/VideoPlayer';
 import { useEffect, useMemo, useState } from 'react';
 import { VideoDescription } from 'widgets/VideoDescription';
 import { CategoryFilms } from 'widgets/CategoryFilms';
+import { ActorsCreators } from 'widgets/ActorsCreators';
 
 export function Desktop() {
   const { id } = useParams();
@@ -46,14 +46,16 @@ export function Desktop() {
         </div>
       </div>
       <div className={styles.simulyar}>
-        <CategoryFilms
+        {/* <CategoryFilms
           title={`С фильмом "${
             lng === 'ru' ? film.name.ru : film.name.en
           }" смотрят:`}
           movies={similar}
-        />
+        /> */}
       </div>
-      <div className={styles.ActorsCreators}>ActorsCreators</div>
+      <div className={styles.ActorsCreators}>
+        <ActorsCreators creators={film.creators} actors={film.actors} />
+      </div>
       <div className={styles.AdditionalMaterials}>AdditionalMaterials</div>
       <div className={styles.comments}>comments</div>
       <div className={styles.allDvices}>allDvices</div>

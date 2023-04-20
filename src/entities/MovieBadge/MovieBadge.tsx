@@ -6,41 +6,14 @@ import { BannerHover } from 'entities/BannerHover';
 import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
 import { useTranslation } from 'react-i18next';
 import AgeRestrictions from 'shared/bisnes/AgeRestrictions';
+import { IFilm } from 'shared/types/film';
 
-export interface IFilm {
-  id: string;
-  width?: number;
-  name: { ru: string; en: string };
-  images: { small: string; large: string };
-  synopsis?: string;
-  logo?: string;
-  price: boolean;
-  ageRestrictions: number;
-  year: string;
-  country: string;
-  duration: string;
-  genre: { ru: string[]; en: string[] };
-  reiting: {
-    grade: string;
-    spectacularity: number;
-    actors: number;
-    plot: number;
-    directing: number;
-  };
+interface IProps {
+  width: number;
+  film: IFilm;
 }
 
-export function MovieBadge({
-  width,
-  name,
-  images,
-  ageRestrictions,
-  price,
-  year,
-  country,
-  duration,
-  reiting,
-  genre,
-}: IFilm) {
+export function MovieBadge({ width, film }: IProps) {
   const { i18n } = useTranslation();
   const lng = i18n.language;
 
@@ -50,33 +23,33 @@ export function MovieBadge({
         <div className={styles.bannerMain}>
           <div className={styles.pic}>
             <PosterCards
-              src={images.small}
-              name={lng === 'ru' ? name.ru : name.en}
+              src={film.poster.url}
+              name={
+                lng === 'ru' ? film.name : film.enName ? film.enName : film.name
+              }
             />
           </div>
           <div className={styles.age}>
-            <AgeRestrictions age={ageRestrictions} />
+            <AgeRestrictions age={film.ageRating} />
           </div>
         </div>
         <div className={styles.bannerHover}>
-          <BannerHover
-            grade={reiting.grade}
-            spectacularity={reiting.spectacularity}
-            actors={reiting.actors}
-            plot={reiting.plot}
-            directing={reiting.directing}
-            year={year}
-            country={country}
-            duration={duration}
-            genre={lng === 'ru' ? genre.ru[0] : genre.en[0]}
-          />
+          <BannerHover film={film} />
         </div>
       </div>
       <div className={styles.title}>
-        <CardTitle children={lng === 'ru' ? name.ru : name.en} />
+        <CardTitle
+          children={
+            lng === 'ru'
+              ? film.name
+              : film.enName === ''
+              ? film.name
+              : film.enName
+          }
+        />
       </div>
       <div className={styles.statusPrice}>
-        <PriceBadge price={price} />
+        <PriceBadge price={film.rating.kp > 5 ? true : false} />
       </div>
     </article>
   );

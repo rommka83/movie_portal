@@ -1,5 +1,4 @@
 {
-  "Welcome to React": "Welcome",
   "navList": {
     "Home": "Home",
     "MovieList": "MovieList",
@@ -64,5 +63,7 @@
   },
   "Player": {
     "trailer": "trailer"
-  }
+  },
+  "ActorsCreators": "Actors and Creators",
+  "more": "more"
 }

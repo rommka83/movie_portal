@@ -17,20 +17,13 @@
       "year": "2021-2023",
       "country": "Турция",
       "genre": {
-        "ru": [
-          "Детективы",
-          "Драмы",
-          "Триллеры"
-        ],
-        "en": [
-          "Detectives",
-          "Dramas",
-          "Thrillers"
-        ]
+        "ru": ["Детективы", "Драмы", "Триллеры"],
+        "en": ["Detectives", "Dramas", "Thrillers"]
       },
       "duration": "1 сезон",
       "creators": [
         {
+          "id": "101",
           "name": "Али Билгин",
           "position": "режиссёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage30/contents/9/b/19e14e30ce126a7e8c1f2e865e007a.jpg/120x144/?q=85",
@@ -41,24 +34,112 @@
         {
           "id": "11",
           "name": "Каан Урганджиогл",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/27dd6c2ee049558f209f2c489cfab2.jpg/120x144/?q=85",
           "films": []
         },
         {
           "id": "12",
           "name": "Пынар Дениз",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/a/2/9d691c075d081d3f1204fde3e711c1.jpg/120x144/?q=60",
           "films": []
         },
         {
           "id": "13",
           "name": "Хусейн Авни Даньял",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/e/8/68316cb6b1d60c7cf5e1f3ae3d04f2.jpg/120x144/?q=60",
           "films": []
         },
         {
           "id": "14",
           "name": "Мехмет Иилмаз Ак",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/b/c/8b4af68aa2a7c950c72ceae6f11f13.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "15",
+          "name": "Каан Урганджиогл",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/27dd6c2ee049558f209f2c489cfab2.jpg/120x144/?q=85",
+          "films": []
+        },
+        {
+          "id": "16",
+          "name": "Пынар Дениз",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/a/2/9d691c075d081d3f1204fde3e711c1.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "17",
+          "name": "Хусейн Авни Даньял",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/e/8/68316cb6b1d60c7cf5e1f3ae3d04f2.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "18",
+          "name": "Мехмет Иилмаз Ак",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/b/c/8b4af68aa2a7c950c72ceae6f11f13.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "19",
+          "name": "Каан Урганджиогл",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/27dd6c2ee049558f209f2c489cfab2.jpg/120x144/?q=85",
+          "films": []
+        },
+        {
+          "id": "110",
+          "name": "Пынар Дениз",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/a/2/9d691c075d081d3f1204fde3e711c1.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "111",
+          "name": "Хусейн Авни Даньял",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/e/8/68316cb6b1d60c7cf5e1f3ae3d04f2.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "112",
+          "name": "Мехмет Иилмаз Ак",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/b/c/8b4af68aa2a7c950c72ceae6f11f13.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "113",
+          "name": "Каан Урганджиогл",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage15/contents/b/d/27dd6c2ee049558f209f2c489cfab2.jpg/120x144/?q=85",
+          "films": []
+        },
+        {
+          "id": "114",
+          "name": "Пынар Дениз",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/a/2/9d691c075d081d3f1204fde3e711c1.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "115",
+          "name": "Хусейн Авни Даньял",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/e/8/68316cb6b1d60c7cf5e1f3ae3d04f2.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "116",
+          "name": "Мехмет Иилмаз Ак",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage2/contents/b/c/8b4af68aa2a7c950c72ceae6f11f13.jpg/120x144/?q=60",
           "films": []
         }
@@ -92,26 +173,20 @@
       "year": "2011",
       "country": "Франция",
       "genre": {
-        "ru": [
-          "Драмы",
-          "Комедии",
-          "Биография"
-        ],
-        "en": [
-          "Drama",
-          "Comedy",
-          "Biography"
-        ]
+        "ru": ["Драмы", "Комедии", "Биография"],
+        "en": ["Drama", "Comedy", "Biography"]
       },
       "duration": "1 ч. 52 мин.",
       "creators": [
         {
+          "id": "201",
           "name": "Оливье Накаш",
           "position": "режиссёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage37/contents/4/b/57c06f0d0149b0a4965acf8f339437.jpg/120x144/?q=85",
           "films": []
         },
         {
+          "id": "202",
           "name": "Эрик Толедано",
           "position": "режиссёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage4/contents/9/0/fc755434383f5f1e17e5cbb5c0edb1.jpg/120x144/?q=85",
@@ -122,24 +197,112 @@
         {
           "id": "21",
           "name": "Франсуа Клюзе",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage33/contents/f/f/06672be611ab9b9e54579c4f645460.jpg/120x144/?q=60",
           "films": []
         },
         {
           "id": "22",
           "name": "Омар Си",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/d/9/9dc20058cee0713134c2c0f00aebea.jpg/1920x1080/?q=60",
           "films": []
         },
         {
           "id": "23",
           "name": "Анн Ле Ни",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/4/6/15390a4eb071847bb4a5ea1b0aa6ac.jpg/120x144/?q=60",
           "films": []
         },
         {
           "id": "24",
           "name": "Одри Флеро",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "25",
+          "name": "Франсуа Клюзе",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage33/contents/f/f/06672be611ab9b9e54579c4f645460.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "26",
+          "name": "Омар Си",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/d/9/9dc20058cee0713134c2c0f00aebea.jpg/1920x1080/?q=60",
+          "films": []
+        },
+        {
+          "id": "27",
+          "name": "Анн Ле Ни",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/4/6/15390a4eb071847bb4a5ea1b0aa6ac.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "28",
+          "name": "Одри Флеро",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "29",
+          "name": "Франсуа Клюзе",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage33/contents/f/f/06672be611ab9b9e54579c4f645460.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "210",
+          "name": "Омар Си",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/d/9/9dc20058cee0713134c2c0f00aebea.jpg/1920x1080/?q=60",
+          "films": []
+        },
+        {
+          "id": "211",
+          "name": "Анн Ле Ни",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/4/6/15390a4eb071847bb4a5ea1b0aa6ac.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "212",
+          "name": "Одри Флеро",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "213",
+          "name": "Франсуа Клюзе",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage33/contents/f/f/06672be611ab9b9e54579c4f645460.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "214",
+          "name": "Омар Си",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/d/9/9dc20058cee0713134c2c0f00aebea.jpg/1920x1080/?q=60",
+          "films": []
+        },
+        {
+          "id": "215",
+          "name": "Анн Ле Ни",
+          "position": "актёр",
+          "foto": "https://thumbs.dfs.ivi.ru/storage29/contents/4/6/15390a4eb071847bb4a5ea1b0aa6ac.jpg/120x144/?q=60",
+          "films": []
+        },
+        {
+          "id": "216",
+          "name": "Одри Флеро",
+          "position": "актёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage8/contents/9/d/caa2b5168da75bbd8d8f1daab5a3ff.jpg/120x144/?q=60",
           "films": []
         }
@@ -173,18 +336,13 @@
       "year": "2023",
       "country": "Россия",
       "genre": {
-        "ru": [
-          "Драмы",
-          "Русские"
-        ],
-        "en": [
-          "Drama",
-          "Russians"
-        ]
+        "ru": ["Драмы", "Русские"],
+        "en": ["Drama", "Russians"]
       },
       "duration": "1 ч. 41 мин.",
       "creators": [
         {
+          "id": "301",
           "name": "Петр Тодоровский",
           "position": "режиссёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage6/contents/8/9/6716c49f954afadab66646a3c79e54.jpg/120x144/?q=85",
@@ -195,6 +353,7 @@
         {
           "id": "31",
           "name": "Никита Ефремов",
+          "position": "актёр",
           "foto": "",
           "films": []
         },
@@ -202,18 +361,105 @@
           "id": "32",
           "foto": "",
           "name": "Ирина Старшенбаум",
+          "position": "актёр",
           "films": []
         },
         {
           "id": "33",
           "foto": "",
           "name": "Евгений Ткачук",
+          "position": "актёр",
           "films": []
         },
         {
           "id": "34",
           "foto": "",
           "name": "Олег Чугунов",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "35",
+          "name": "Никита Ефремов",
+          "position": "актёр",
+          "foto": "",
+          "films": []
+        },
+        {
+          "id": "36",
+          "foto": "",
+          "name": "Ирина Старшенбаум",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "37",
+          "foto": "",
+          "name": "Евгений Ткачук",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "38",
+          "foto": "",
+          "name": "Олег Чугунов",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "39",
+          "name": "Никита Ефремов",
+          "position": "актёр",
+          "foto": "",
+          "films": []
+        },
+        {
+          "id": "310",
+          "foto": "",
+          "name": "Ирина Старшенбаум",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "311",
+          "foto": "",
+          "name": "Евгений Ткачук",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "312",
+          "foto": "",
+          "name": "Олег Чугунов",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "313",
+          "name": "Никита Ефремов",
+          "position": "актёр",
+          "foto": "",
+          "films": []
+        },
+        {
+          "id": "314",
+          "foto": "",
+          "name": "Ирина Старшенбаум",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "315",
+          "foto": "",
+          "name": "Евгений Ткачук",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "316",
+          "foto": "",
+          "name": "Олег Чугунов",
+          "position": "актёр",
           "films": []
         }
       ],
@@ -246,18 +492,13 @@
       "year": "2022",
       "country": "Великобритания",
       "genre": {
-        "ru": [
-          "Комедии",
-          "Зарубежные"
-        ],
-        "en": [
-          "Comedy",
-          "Foreign"
-        ]
+        "ru": ["Комедии", "Зарубежные"],
+        "en": ["Comedy", "Foreign"]
       },
       "duration": "1 ч. 41 мин.",
       "creators": [
         {
+          "id": "401",
           "name": "Джек Спринг",
           "position": "режиссёр",
           "foto": "https://thumbs.dfs.ivi.ru/storage30/contents/7/5/16922fafb8d9f820c427d3f5e65a95.jpg/120x144/?q=85",
@@ -269,24 +510,140 @@
           "id": "41",
           "foto": "",
           "name": "Колм Мини",
+          "position": "актёр",
           "films": []
         },
         {
           "id": "42",
           "foto": "",
           "name": "Джонас Армстронг",
+          "position": "актёр",
           "films": []
         },
         {
           "id": "43",
           "foto": "",
           "name": "Джеймс Берроуз",
+          "position": "актёр",
           "films": []
         },
         {
           "id": "44",
           "foto": "",
           "name": "Робби Ги",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "45",
+          "foto": "",
+          "name": "Колм Мини",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "46",
+          "foto": "",
+          "name": "Джонас Армстронг",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "47",
+          "foto": "",
+          "name": "Джеймс Берроуз",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "48",
+          "foto": "",
+          "name": "Робби Ги",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "49",
+          "foto": "",
+          "name": "Колм Мини",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "410",
+          "foto": "",
+          "name": "Джонас Армстронг",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "411",
+          "foto": "",
+          "name": "Джеймс Берроуз",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "412",
+          "foto": "",
+          "name": "Робби Ги",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "413",
+          "foto": "",
+          "name": "Колм Мини",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "414",
+          "foto": "",
+          "name": "Джонас Армстронг",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "415",
+          "foto": "",
+          "name": "Джеймс Берроуз",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "416",
+          "foto": "",
+          "name": "Робби Ги",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "417",
+          "foto": "",
+          "name": "Колм Мини",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "418",
+          "foto": "",
+          "name": "Джонас Армстронг",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "419",
+          "foto": "",
+          "name": "Джеймс Берроуз",
+          "position": "актёр",
+          "films": []
+        },
+        {
+          "id": "420",
+          "foto": "",
+          "name": "Робби Ги",
+          "position": "актёр",
           "films": []
         }
       ],

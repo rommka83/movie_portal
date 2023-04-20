@@ -5,30 +5,13 @@ import { ReitingMovie } from 'shared/bisnes/ReitingMovie';
 import { ShortDescription } from 'shared/bisnes/ShortDescription';
 import { TopChart } from 'shared/bisnes/TopChart';
 import { SvgIcon } from 'shared/ui/SvgIcon';
+import { IFilm } from 'shared/types/film';
 
 interface IProps {
-  grade: string;
-  spectacularity: number;
-  actors: number;
-  plot: number;
-  directing: number;
-  year: string;
-  country: string;
-  genre: string;
-  duration: string;
+  film: IFilm;
 }
 
-export const BannerHover: FC<IProps> = ({
-  grade,
-  spectacularity,
-  actors,
-  plot,
-  directing,
-  year,
-  country,
-  genre,
-  duration,
-}) => {
+export const BannerHover: FC<IProps> = ({ film }) => {
   return (
     <div className={styles.bannerHover}>
       <div className={styles.bannerHoverWrapper}>
@@ -48,22 +31,11 @@ export const BannerHover: FC<IProps> = ({
         </ul>
         <div className={styles.bannerHoverReiting}>
           <div className={styles.bannerReiting}>
-            <ReitingMovie grade={grade} />
-            <BlockChart
-              spectacularity={spectacularity}
-              actors={actors}
-              plot={plot}
-              directing={directing}
-              width={35}
-            />
+            <ReitingMovie grade={film.rating.kp} />
+            <BlockChart obj={film.rating} width={35} />
           </div>
           <TopChart />
-          <ShortDescription
-            year={year}
-            country={country}
-            genre={genre}
-            duration={duration}
-          />
+          <ShortDescription obj={film} />
         </div>
       </div>
     </div>
