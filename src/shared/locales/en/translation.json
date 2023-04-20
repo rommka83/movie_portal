@@ -1,57 +1,71 @@
 {
-	"Welcome to React": "Welcome",
-	"navList": {
-		"Home": "Home",
-		"MovieList": "MovieList",
-		"MoviePage": "MoviePage",
-		"ActorPage": "ActorPage",
-		"Authorization": "Authorization",
-		"MovieReviews": "MovieReviews",
-		"AdminPanel": "AdminPanel"
-	},
-	"footer": {
-		"AboutUs": "About Us",
-		"AboutCompany": "About company",
-		"Jobs": "Jobs",
-		"BetaProgram": "Beta program",
-		"InformationForPartners": "Information for partners",
-		"AdvertisingPlacement": "Advertising placement",
-		"TermsOfUse": "Terms of use",
-		"PrivacyPolicy": "Privacy policy",
-		"Compliance": "Compliance",
-		"Sections": "Sections",
-		"MyIvi": "My Ivi",
-		"WhatsNew": "What's new",
-		"Movies": "Movies",
-		"Series": "Series",
-		"Cartoons": "Cartoons",
-		"TvChannels": "TV-channels",
-		"WhatToSee": "What to see",
-		"CertificateActivation": "Certificate activation",
-		"Support": "Support",
-		"WeAreAlwaysReadyToHelpYou": "We are always ready to help you. Our operators are online 24/7",
-		"WriteInChat": "Write in chat",
-		"AnswersOnQuestions": "Answers on questions",
-		"WatchMoviesWithoutAds": "Watch movies, series and cartoons without ads",
-		"DownloadTo": "Download to",
-		"AvailableIn": "Available in",
-		"LookAt": "Look at",
-		"AllDevices": "All devices",
-		"Catalog": "Catalog",
-		"Search": "Search",
-		"Profile": "Profile",
-		"More": "More"
-	},
-
-	"header": {
-		"MyIvi": "My Ivi",
-		"WhatsNew": "What's new",
-		"Movies": "Movies",
-		"Series": "Series",
-		"Cartoons": "Cartoons",
-		"TvChannels": "TV-channels",
-		"Watch30DaysForFree": "Watch 30 days for free"
-	},
+  "navList": {
+    "Home": "Home",
+    "MovieList": "MovieList",
+    "MoviePage": "MoviePage",
+    "ActorPage": "ActorPage",
+    "Authorization": "Authorization",
+    "MovieReviews": "MovieReviews",
+    "AdminPanel": "AdminPanel"
+  },
+  "footer": {
+    "AboutUs": "About Us",
+    "AboutCompany": "About company",
+    "Jobs": "Jobs",
+    "BetaProgram": "Beta program",
+    "InformationForPartners": "Information for partners",
+    "AdvertisingPlacement": "Advertising placement",
+    "TermsOfUse": "Terms of use",
+    "PrivacyPolicy": "Privacy policy",
+    "Compliance": "Compliance",
+    "Sections": "Sections",
+    "MyIvi": "My Ivi",
+    "WhatsNew": "What's new",
+    "Movies": "Movies",
+    "Series": "Series",
+    "Cartoons": "Cartoons",
+    "TvChannels": "TV-channels",
+    "WhatToSee": "What to see",
+    "CertificateActivation": "Certificate activation",
+    "Support": "Support",
+    "WeAreAlwaysReadyToHelpYou": "We are always ready to help you. Our operators are online 24/7",
+    "WriteInChat": "Write in chat",
+    "AnswersOnQuestions": "Answers on questions",
+    "WatchMoviesWithoutAds": "Watch movies, series and cartoons without ads",
+    "DownloadTo": "Download to",
+    "AvailableIn": "Available in",
+    "LookAt": "Look at",
+    "AllDevices": "All devices",
+    "Catalog": "Catalog",
+    "Search": "Search",
+    "Profile": "Profile",
+    "More": "More"
+  },
+  "topChart": {
+    "spectacularity": "spectacularity",
+    "actors": "actors",
+    "plot": "plot",
+    "directing": "directing"
+  },
+  "header": {
+    "MyIvi": "My Ivi",
+    "WhatsNew": "What's new",
+    "Movies": "Movies",
+    "Series": "Series",
+    "Cartoons": "Cartoons",
+    "TvChannels": "TV-channels",
+    "Watch30DaysForFree": "Watch 30 days for free"
+  },
+  "Grading": {
+    "Portal rating": "Portal rating",
+    "estimate": "estimate",
+    "ratings": "ratings"
+  },
+  "Player": {
+    "trailer": "trailer"
+  },
+  "ActorsCreators": "Actors and Creators",
+  "more": "more",
 	"headerMoviesFilter": {
 		"Genres": "Genres",
 		"Arthouse": "Arthouse",
@@ -93,19 +107,5 @@
 		"MoviesInHD": "Movies in HD",
 		"IvisChoice": "Ivi's choice",
 		"SubscriptionNews": "Subscription news"
-	},
-	"topChart": {
-		"spectacularity": "spectacularity",
-		"actors": "actors",
-		"plot": "plot",
-		"directing": "directing"
-	},
-	"Grading": {
-		"Portal rating": "Portal rating",
-		"estimate": "estimate",
-		"ratings": "ratings"
-	},
-	"Player": {
-		"trailer": "trailer"
 	}
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './agerestrictions.module.css';
 
 interface IProps {
-  age?: number;
+  age: number | null;
 }
 
 export const AgeRestrictions = React.memo<IProps>(({ age }) => {

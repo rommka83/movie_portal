@@ -6,7 +6,7 @@ const meta = {
   title: 'Example/ReitingMovie',
   component: ReitingMovie,
   tags: ['autodocs'],
-  args: { grade: '5,5' },
+  args: { grade: 5.5 },
 
   parameters: {
     layout: 'centered',

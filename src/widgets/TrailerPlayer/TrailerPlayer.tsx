@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import styles from './trailerPlayer.module.css';
 import { useAppSelector, useAppDispatch } from 'app/store/hooks';
 import { changeTrailerPlayer } from 'app/store/trailerPlayerSlice';
+import classNames from 'classnames';
 
 export function TrailerPlayer() {
   const trailerPlayer = useAppSelector(
@@ -21,6 +22,7 @@ export function TrailerPlayer() {
             );
         }}
       >
+        <div className={classNames(styles.exit, 'icon-close_20__0')}></div>
         <video
           className={styles.player}
           src={trailerPlayer.trailer}
