@@ -17,17 +17,21 @@ type PropsType = {
 export const PromoSlider: React.FC<PropsType> = ({ movies }) => {
   return (
     <Swiper
-      modules={[Navigation, Autoplay]}
-      spaceBetween={10}
-      slidesPerView={1.1}
+      // Autoplay
+      modules={[Navigation,]}
+      spaceBetween={20}
+      slidesPerView={1.23}
       navigation
       loop
       centeredSlides
-      autoplay={{
+      // centeredSlides={false}
+      // centerInsufficientSlides={true}
+      /* autoplay={{
         delay: 8000,
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
-      }}
+      }} */
+      className={styles.slider}
     >
       {movies.map((movie) => (
         <SwiperSlide key={movie.id} className={styles.slide}>
