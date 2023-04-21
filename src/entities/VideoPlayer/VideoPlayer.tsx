@@ -4,17 +4,19 @@ import classNames from 'classnames';
 import { t } from 'i18next';
 import { useAppDispatch } from 'app/store/hooks';
 import { changeTrailerPlayer } from 'app/store/trailerPlayerSlice';
+import { HTMLAttributes } from 'react';
 
 interface IProps {
   trailer: string;
   age: number;
 }
+type props = HTMLAttributes<HTMLDivElement> & IProps;
 
-export function VideoPlayer({ trailer, age }: IProps) {
+export function VideoPlayer({ trailer, age, className }: props) {
   const dispatch = useAppDispatch();
 
   return (
-    <div className={styles.root}>
+    <div className={classNames(styles.root, className)}>
       <video className={styles.video} src={trailer} autoPlay controls></video>
       <ul className={styles.list}>
         <li

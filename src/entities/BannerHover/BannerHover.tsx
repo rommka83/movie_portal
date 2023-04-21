@@ -5,15 +5,18 @@ import { ReitingMovie } from 'shared/bisnes/ReitingMovie';
 import { ShortDescription } from 'shared/bisnes/ShortDescription';
 import { TopChart } from 'shared/bisnes/TopChart';
 import { SvgIcon } from 'shared/ui/SvgIcon';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
+import { HTMLAttributes } from 'react';
+import classNames from 'classnames';
 
 interface IProps {
   film: IFilm;
 }
+type props = HTMLAttributes<HTMLDivElement> & IProps;
 
-export const BannerHover: FC<IProps> = ({ film }) => {
+export const BannerHover: FC<props> = ({ film, className }) => {
   return (
-    <div className={styles.bannerHover}>
+    <div className={classNames(styles.bannerHover, className)}>
       <div className={styles.bannerHoverWrapper}>
         <ul className={styles.bannerHoverList}>
           <li className={styles.bannerHoverItem}>
@@ -30,11 +33,14 @@ export const BannerHover: FC<IProps> = ({ film }) => {
           </li>
         </ul>
         <div className={styles.bannerHoverReiting}>
-          <div className={styles.bannerReiting}>
-            <ReitingMovie grade={film.rating.kp} />
-            <BlockChart obj={film.rating} width={35} />
-          </div>
-          <TopChart />
+          {/* <div className={styles.bannerReiting}> */}
+          {/* </div> */}
+
+          <TopChart obj={film} />
+
+          <ReitingMovie grade={film.rating.kp} />
+          <BlockChart obj={film.rating} width={35} />
+
           <ShortDescription obj={film} />
         </div>
       </div>

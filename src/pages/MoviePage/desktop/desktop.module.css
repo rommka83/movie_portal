@@ -16,8 +16,6 @@
 .player {
   grid-column: 1;
 }
-.playerWrapper {
-}
 .description {
   grid-column: 2;
 }

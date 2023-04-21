@@ -6,7 +6,7 @@ import { BannerHover } from 'entities/BannerHover';
 import { PriceBadge } from 'shared/ui/PriceBadge/PriceBadge';
 import { useTranslation } from 'react-i18next';
 import AgeRestrictions from 'shared/bisnes/AgeRestrictions';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
 
 interface IProps {
   width: number;
@@ -16,41 +16,35 @@ interface IProps {
 export function MovieBadge({ width, film }: IProps) {
   const { i18n } = useTranslation();
   const lng = i18n.language;
-
   return (
     <article className={styles.wrapper} style={{ width: `${width}px` }}>
       <div className={styles.banner}>
         <div className={styles.bannerMain}>
-          <div className={styles.pic}>
-            <PosterCards
-              src={film.poster.url}
-              name={
-                lng === 'ru' ? film.name : film.enName ? film.enName : film.name
-              }
-            />
-          </div>
-          <div className={styles.age}>
-            <AgeRestrictions age={film.ageRating} />
-          </div>
+          <PosterCards
+            src={film.poster.url ? film.poster.url : ''}
+            name={
+              lng === 'ru' ? film.name : film.enName ? film.enName : film.name
+            }
+            className={styles.pic}
+          />
+          <AgeRestrictions age={film.ageRating} className={styles.age} />
         </div>
-        <div className={styles.bannerHover}>
-          <BannerHover film={film} />
-        </div>
+        <BannerHover film={film} className={styles.bannerHover} />
       </div>
-      <div className={styles.title}>
-        <CardTitle
-          children={
-            lng === 'ru'
-              ? film.name
-              : film.enName === ''
-              ? film.name
-              : film.enName
-          }
-        />
-      </div>
-      <div className={styles.statusPrice}>
-        <PriceBadge price={film.rating.kp > 5 ? true : false} />
-      </div>
+      <CardTitle
+        children={
+          lng === 'ru'
+            ? film.name
+            : film.enName === ''
+            ? film.name
+            : film.enName
+        }
+        className={styles.title}
+      />
+      <PriceBadge
+        price={film.rating.kp > 7 ? true : false}
+        className={styles.statusPrice}
+      />
     </article>
   );
 }

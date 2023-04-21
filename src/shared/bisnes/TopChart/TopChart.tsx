@@ -2,28 +2,27 @@ import React, { FC } from 'react';
 import styles from './topchart.module.css';
 import { number } from 'prop-types';
 import { useTranslation } from 'react-i18next';
+import { IFilm } from 'shared/types/IFilm';
 
 interface IProps {
-  name?: 'spectacularity' | 'actors' | 'plot' | 'directing';
-  value?: number;
+  obj: IFilm;
 }
 
-export const TopChart: FC<IProps> = ({
-  name = 'spectacularity',
-  value = 50,
-}) => {
+export const TopChart: FC<IProps> = ({ obj }) => {
   const { t } = useTranslation();
 
   return (
     <div className={styles.root}>
-      <p className={styles.name}>{t(`topChart.${name}`)}</p>
+      <p className={styles.name}>{t('topChart.Our')}</p>
+      <p className={styles.name}>{t('topChart.grade')}</p>
+
       <input
         type='range'
         className={styles.inp}
         min='0'
-        max='100'
-        value={value}
-        step='1'
+        max='10'
+        value={obj.rating.kp}
+        step='0,1'
         style={{ width: 'width' }}
         id='topChart'
         readOnly

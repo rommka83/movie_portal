@@ -14,7 +14,6 @@ const ActorsCreatorsModal = createSlice({
   reducers: {
     openClose(state) {
       state.data.isOpen = !state.data.isOpen;
-      console.log(state.data.isOpen);
     },
   },
 });

@@ -1,19 +1,23 @@
 import React, { FC } from 'react';
 import styles from './genrebookmarks.module.css';
 import { nanoid } from '@reduxjs/toolkit';
+import { type } from 'os';
+import { HTMLAttributes } from 'react';
+import classNames from 'classnames';
 
 interface IProps {
-  ganre: string[];
+  ganre: { name: string }[];
 }
+type props = HTMLAttributes<HTMLUListElement> & IProps;
 
-export const GenreBookmarks: FC<IProps> = ({ ganre }) => {
+export const GenreBookmarks: FC<props> = ({ ganre, className }) => {
   return (
-    <ul className={styles.list}>
+    <ul className={classNames(styles.list, className)}>
       {ganre.map((el) => {
         return (
           <li className={styles.item} key={nanoid()}>
             <a href='https://www.ivi.ru/movies' className={styles.link}>
-              {el}
+              {el.name}
             </a>
           </li>
         );
