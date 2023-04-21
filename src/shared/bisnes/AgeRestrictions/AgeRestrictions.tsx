@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 import styles from './agerestrictions.module.css';
+import classNames from 'classnames';
 
 interface IProps {
   age: number | null;
 }
 
-export const AgeRestrictions = React.memo<IProps>(({ age }) => {
+type props = HTMLAttributes<HTMLDivElement> & IProps;
+
+export const AgeRestrictions = React.memo<props>(({ age, className }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={classNames(styles.wrapper, className)}>
       <span className={styles.text}>{age ? age : 0} +</span>
     </div>
   );

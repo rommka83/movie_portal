@@ -6,7 +6,7 @@ import { UseMedia } from 'shared/hooks/useMedia';
 import styles from './promoSlide.module.css';
 
 import ButtonOrLink from 'shared/ui/ButtonOrLink';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
 
 type PropsType = {
   movie: IFilm;

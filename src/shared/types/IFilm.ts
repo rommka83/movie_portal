@@ -1,90 +1,46 @@
+import { IRating } from './IRating';
+import { IFact } from './IFact';
+import { IPerson } from './IPerson';
+import { ISimulyarMovies } from './ISimulyarMovie';
+import { ITrailers } from './ITrailer';
+
 export interface IFilm {
   id: number;
-  externalId: {
-    kpHD: string | null;
-    imdb: string;
-    tmdb: number;
-  };
   name: string;
-  alternativeName: string;
   enName: string | null;
-  names:
-    | {
-        name: string;
-        language: string;
-        type: string;
-      }[]
-    | { name: string }[];
-  type: string;
-  typeNumber: number;
   year: number;
-  description: string;
+  description: string | null;
   shortDescription: string | null;
-  slogan: string | null;
-  status: string | null;
-  rating: {
-    kp: number;
-    imdb: number;
-    // tmdb: number;
-    filmCritics: number;
-    russianFilmCritics: number;
-    await: number;
-  };
-  votes: {
-    kp: number;
-    imdb: number;
-    // tmdb: number;
-    filmCritics: number;
-    russianFilmCritics: number;
-    await: number;
-  };
+  rating: IRating;
   movieLength: number;
-  ratingMpaa: string | null;
   ageRating: number | null;
-  // logo: {
-  //   url: string | null;
-  // };
   poster: {
     url: string;
     previewUrl: string;
   };
-  // backdrop: {
-  //   url: string;
-  //   previewUrl: string;
-  // };
-  videos: {
-    trailers: {
-      url: string;
-      name: string;
-      // site: string;
-      // type: string;
-      // size: number;
-    }[];
-    // teasers: [
-    //   {
-    //     url: string;
-    //     name: string;
-    //     site: string;
-    //     type: string;
-    //     size: number;
-    //   }
-    // ];
-  };
+  videos?: ITrailers;
   genres: {
     name: string;
   }[];
   countries: {
     name: string;
   }[];
-  persons: {
-    id: number;
-    photo: string;
-    name: string | null;
-    enName: string;
-    // description: string;
-    profession: string;
-    enProfession: string;
-  }[];
+  persons: IPerson[];
+  similarMovies: ISimulyarMovies[] | null;
+  facts: IFact[] | null;
+  // alternativeName: string | null;
+  // votes: {
+  //   kp: number;
+  //   imdb: number;
+  //   tmdb?: number;
+  //   filmCritics: number;
+  //   russianFilmCritics: number;
+  //   await: number;
+  // };
+  // slogan: string | null;
+  // status: string | null;
+  // type: string;
+  // ratingMpaa: string | null;
   // reviewInfo: {
   //   count: number;
   //   positiveCount: number;
@@ -123,17 +79,26 @@ export interface IFilm {
   //   bluray: string;
   //   dvd: string;
   // };
-  similarMovies: {
-    id: number;
-    name: string;
-    enName: string;
-    alternativeName: string;
-    type: string;
-    poster: {
-      url: string;
-      previewUrl: string;
-    };
-  }[];
+  // logo: {
+  //   url: string | null;
+  // };
+  // typeNumber: number;
+  // externalId: {
+  //   kpHD: string | null;
+  //   imdb: string;
+  //   tmdb: number;
+  // };
+  // names:
+  //   | {
+  //       name: string;
+  //       language: string;
+  //       type: string;
+  //     }[]
+  //   | { name: string }[];
+  // backdrop: {
+  //   url: string;
+  //   previewUrl: string;
+  // };
   // sequelsAndPrequels: [
   //   {
   //     id: number;
@@ -164,15 +129,8 @@ export interface IFilm {
   //     end: number;
   //   }
   // ];
-  top10: number | null;
-  top250: number | null;
-  facts:
-    | {
-        value: string;
-        type: string;
-        spoiler: true;
-      }[]
-    | null;
+  // top10: number | null;
+  // top250: number | null;
   // imagesInfo: {
   //   postersCount: number;
   //   backdropsCount: number;
@@ -186,4 +144,3 @@ export interface IFilm {
   //   }
   // ];
 }
-export {};

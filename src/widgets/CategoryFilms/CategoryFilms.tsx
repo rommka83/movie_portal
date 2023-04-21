@@ -5,7 +5,8 @@ import { nanoid } from '@reduxjs/toolkit';
 import styles from './categoryfilms.module.css';
 import { UseMedia } from 'shared/hooks/useMedia';
 import { Link } from 'react-router-dom';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
+import { ISimulyarMovies } from 'shared/types/ISimulyarMovie';
 
 interface IProps {
   title: string;

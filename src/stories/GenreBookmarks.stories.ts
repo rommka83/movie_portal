@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
 import { GenreBookmarks } from '../shared/bisnes/GenreBookmarks';
+import film from '../temp/DB/testOneFilm.json';
 
 const meta = {
   title: 'Example/GenreBookmarks',
   component: GenreBookmarks,
   tags: ['autodocs'],
-  args: { ganre: ['Сериалы', 'Ужасы', 'Комедии', 'Боевики'] },
+  args: { ganre: film.genres },
 
   parameters: {
     layout: 'centered',

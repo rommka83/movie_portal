@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { IFilm } from './../../shared/types/film';
+import { IFilm } from '../../shared/types/IFilm';
 
 let movies: IFilm[] = [];
 

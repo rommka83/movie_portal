@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import styles from './shortdescription.module.css';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
 
 interface IProps {
   obj: IFilm;

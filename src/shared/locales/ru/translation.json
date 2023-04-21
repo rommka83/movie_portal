@@ -43,10 +43,8 @@
     "More": "Ещё"
   },
   "topChart": {
-    "spectacularity": "эффектность",
-    "actors": "актеры",
-    "plot": "сюжет",
-    "directing": "режиссура"
+    "Our": "Наша",
+    "grade": "оценка"
   },
   "header": {
     "MyIvi": "Мой Иви",

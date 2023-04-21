@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper';
 
 import { PromoSlide } from 'entities/PromoSlide';
-import { IFilm } from 'shared/types/film';
+import { IFilm } from 'shared/types/IFilm';
 
 type PropsType = {
   movies: IFilm[];

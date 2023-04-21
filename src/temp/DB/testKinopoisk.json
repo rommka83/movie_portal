@@ -264,9 +264,10 @@
     },
     "facts": [],
     "genres": [
-      { "name": "драма" },
-      { "name": "комедия" },
-      { "name": "приключения" }
+      { "name": "аниме" },
+      { "name": "мультфильм" },
+      { "name": "приключения" },
+      { "name": "фэнтези" }
     ],
     "countries": [{ "name": "США" }],
     "videos": {
@@ -1071,9 +1072,10 @@
     },
     "facts": [],
     "genres": [
-      { "name": "мелодрама" },
-      { "name": "драма" },
-      { "name": "приключения" }
+      { "name": "аниме" },
+      { "name": "мультфильм" },
+      { "name": "приключения" },
+      { "name": "фэнтези" }
     ],
     "countries": [{ "name": "Япония" }],
     "seasonsInfo": [],
@@ -1258,7 +1260,12 @@
       "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_1032571.jpg"
     },
     "facts": [],
-    "genres": [{ "name": "мелодрама" }, { "name": "приключения" }],
+    "genres": [
+      { "name": "аниме" },
+      { "name": "мультфильм" },
+      { "name": "приключения" },
+      { "name": "фэнтези" }
+    ],
     "countries": [{ "name": "Турция" }],
     "seasonsInfo": [],
     "persons": [
@@ -1418,7 +1425,12 @@
       "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_1354948.jpg"
     },
     "facts": [],
-    "genres": [{ "name": "комедия" }, { "name": "приключения" }],
+    "genres": [
+      { "name": "аниме" },
+      { "name": "мультфильм" },
+      { "name": "приключения" },
+      { "name": "фэнтези" }
+    ],
     "countries": [{ "name": "США" }],
     "videos": {
       "trailers": [
@@ -1520,5 +1532,754 @@
     "watchability": { "items": null },
     "top10": null,
     "top250": null
+  },
+  {
+    "videos": { "trailers": [], "teasers": [] },
+    "id": 838649,
+    "type": "movie",
+    "externalId": { "kpHD": null, "imdb": "tt3618126" },
+    "name": "Капитан Америка: Зимний солдат",
+    "rating": {
+      "kp": 6.609,
+      "imdb": 8.2,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 95.66
+    },
+    "description": null,
+    "votes": {
+      "kp": 473,
+      "imdb": 101,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 255
+    },
+    "distributors": { "distributor": null, "distributorRelease": null },
+    "premiere": { "country": "США", "world": "2014-03-23T00:00:00.000Z" },
+    "slogan": "Here's what the blockbuster film won't tell you.",
+    "year": 2014,
+    "poster": {
+      "url": "https://st.kp.yandex.net/images/film_big/838649.jpg",
+      "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_838649.jpg"
+    },
+    "facts": null,
+    "genres": [{ "name": "короткометражка" }, { "name": "приключения" }],
+    "countries": [{ "name": "США" }],
+    "seasonsInfo": [],
+    "persons": [
+      {
+        "id": 3227685,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3227685.jpg",
+        "name": "Джереми Лонг",
+        "enName": "Jeremy Long",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 3634411,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634411.jpg",
+        "name": "Курт Леар",
+        "enName": "Curt Lear",
+        "profession": "режиссеры",
+        "enProfession": "director"
+      },
+      {
+        "id": 3634411,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634411.jpg",
+        "name": "Курт Леар",
+        "enName": "Curt Lear",
+        "profession": "монтажеры",
+        "enProfession": "editor"
+      },
+      {
+        "id": 3634411,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634411.jpg",
+        "name": "Курт Леар",
+        "enName": "Curt Lear",
+        "profession": "операторы",
+        "enProfession": "operator"
+      },
+      {
+        "id": 3634412,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634412.jpg",
+        "name": "Майк Дженслер",
+        "enName": "Mike Gensler",
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 3634411,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634411.jpg",
+        "name": "Курт Леар",
+        "enName": "Curt Lear",
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 3227685,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3227685.jpg",
+        "name": "Джереми Лонг",
+        "enName": "Jeremy Long",
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 3634412,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634412.jpg",
+        "name": "Майк Дженслер",
+        "enName": "Mike Gensler",
+        "profession": "редакторы",
+        "enProfession": "writer"
+      },
+      {
+        "id": 3227685,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3227685.jpg",
+        "name": "Джереми Лонг",
+        "enName": "Jeremy Long",
+        "profession": "редакторы",
+        "enProfession": "writer"
+      },
+      {
+        "id": 3634413,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3634413.jpg",
+        "name": null,
+        "enName": "Andy Neidigh",
+        "profession": "редакторы",
+        "enProfession": "writer"
+      }
+    ],
+    "images": { "framesCount": 0 },
+    "lists": [],
+    "spokenLanguages": [],
+    "productionCompanies": [],
+    "typeNumber": 1,
+    "ageRating": null,
+    "alternativeName": "Comic Book Origins: Captain America - Winter Soldier",
+    "budget": { "value": 0, "currency": "$" },
+    "enName": null,
+    "movieLength": 12,
+    "names": [
+      { "name": "Капитан Америка: Зимний солдат" },
+      { "name": "Comic Book Origins: Captain America - Winter Soldier" }
+    ],
+    "ratingMpaa": null,
+    "updateDates": [],
+    "shortDescription": null,
+    "technology": { "hasImax": false, "has3D": false },
+    "ticketsOnSale": false,
+    "updatedAt": "2023-04-16T09:34:01.799Z",
+    "fees": { "world": {}, "russia": {}, "usa": {} },
+    "similarMovies": [],
+    "sequelsAndPrequels": [],
+    "backdrop": { "url": null, "previewUrl": null },
+    "logo": { "url": null },
+    "watchability": { "items": null },
+    "top10": null,
+    "top250": null,
+    "status": null
+  },
+  {
+    "videos": {
+      "trailers": [
+        {
+          "url": "https://widgets.kinopoisk.ru/discovery/trailer/94279?onlyPlayer=1&autoplay=1&cover=1",
+          "name": "ТВ-ролик №1",
+          "site": "kinopoisk_widget"
+        },
+        {
+          "url": "https://widgets.kinopoisk.ru/discovery/trailer/94280?onlyPlayer=1&autoplay=1&cover=1",
+          "name": "ТВ-ролик №2",
+          "site": "kinopoisk_widget"
+        },
+        {
+          "url": "https://widgets.kinopoisk.ru/discovery/trailer/94281?onlyPlayer=1&autoplay=1&cover=1",
+          "name": "ТВ-ролик №3",
+          "site": "kinopoisk_widget"
+        },
+        {
+          "url": "https://www.youtube.com/embed/e6M1WoZFyaw",
+          "name": "Трейлер к видеролику \"Ладога\"",
+          "site": "youtube",
+          "type": "TRAILER"
+        },
+        {
+          "url": "https://www.youtube.com/embed/fnQyBz_xo_o",
+          "name": "Ладога",
+          "site": "youtube",
+          "type": "TRAILER"
+        },
+        {
+          "url": "https://www.youtube.com/embed/ZezeK-6eqTc",
+          "name": "Сериал Ладога 2014  трейлер",
+          "site": "youtube",
+          "type": "TRAILER"
+        },
+        {
+          "url": "https://www.youtube.com/embed/iBVrJ3N8wyU",
+          "name": "Ладога, 2014 сериал трейлер",
+          "site": "youtube",
+          "type": "TRAILER"
+        }
+      ],
+      "teasers": []
+    },
+    "id": 820679,
+    "type": "tv-series",
+    "externalId": {
+      "kpHD": "4b86c6cc9d6bc5b7a9f05e21995c21a1",
+      "imdb": "tt3529738",
+      "tmdb": 60962
+    },
+    "name": "Ладога",
+    "rating": {
+      "kp": 7.598,
+      "imdb": 7.2,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 0
+    },
+    "description": "Блокадный Ленинград. Зима 1942-го. Советская контрразведка узнает, что немцы готовят диверсию на «Дороге жизни» – единственном пути, по которому в город доставляется продовольствие и другие грузы. Скорее всего, диверсант - один из водителей «полуторок», работающих на замерзшем Ладожском озере. Найти и остановить врага должен капитан НКВД Сергиенко…",
+    "votes": {
+      "kp": 10095,
+      "imdb": 95,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 1
+    },
+    "distributors": {
+      "distributor": null,
+      "distributorRelease": "Lizard Cinema Trade"
+    },
+    "premiere": {
+      "russia": "2014-01-27T00:00:00.000Z",
+      "cinema": "2014-01-27T00:00:00.000Z",
+      "dvd": "2014-11-25T00:00:00.000Z"
+    },
+    "slogan": null,
+    "year": 2013,
+    "poster": {
+      "url": "https://st.kp.yandex.net/images/film_big/820679.jpg",
+      "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_820679.jpg"
+    },
+    "facts": [],
+    "genres": [{ "name": "военный" }, { "name": "драма" }],
+    "countries": [{ "name": "Россия" }],
+    "seasonsInfo": [{ "number": 1, "episodesCount": 4 }],
+    "persons": [
+      {
+        "id": 238515,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_238515.jpg",
+        "name": "Ксения Раппопорт",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 251184,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_251184.jpg",
+        "name": "Алексей Серебряков",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 476576,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_476576.jpg",
+        "name": "Андрей Мерзликин",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 273292,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_273292.jpg",
+        "name": "Дмитрий Назаров",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 75866,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_75866.jpg",
+        "name": "Юрий Кузнецов",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 969067,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_969067.jpg",
+        "name": "Виталий Коваленко",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 1625357,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1625357.jpg",
+        "name": "Яков Шамшин",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 3675966,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3675966.jpg",
+        "name": "Анна Блинова",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 1700503,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1700503.jpg",
+        "name": "Филипп Ершов",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 1623955,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1623955.jpg",
+        "name": "Олег Фёдоров",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 1055436,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1055436.jpg",
+        "name": "Алексей Зубарев",
+        "enName": null,
+        "profession": "композиторы",
+        "enProfession": "composer"
+      },
+      {
+        "id": 2008028,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2008028.jpg",
+        "name": "Константин Пахотин",
+        "enName": null,
+        "profession": "художники",
+        "enProfession": "designer"
+      },
+      {
+        "id": 2001912,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2001912.jpg",
+        "name": "Александра Весельчакова",
+        "enName": null,
+        "profession": "художники",
+        "enProfession": "designer"
+      },
+      {
+        "id": 3676004,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3676004.jpg",
+        "name": "Николай Ершов",
+        "enName": null,
+        "profession": "художники",
+        "enProfession": "designer"
+      },
+      {
+        "id": 3676006,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3676006.jpg",
+        "name": "Степан Блохин",
+        "enName": null,
+        "profession": "художники",
+        "enProfession": "designer"
+      },
+      {
+        "id": 539453,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_539453.jpg",
+        "name": "Александр Велединский",
+        "enName": null,
+        "profession": "режиссеры",
+        "enProfession": "director"
+      },
+      {
+        "id": 266153,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_266153.jpg",
+        "name": "Алла Стрельникова",
+        "enName": null,
+        "profession": "монтажеры",
+        "enProfession": "editor"
+      },
+      {
+        "id": 1574979,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1574979.jpg",
+        "name": "Эдуард Мошкович",
+        "enName": null,
+        "profession": "операторы",
+        "enProfession": "operator"
+      },
+      {
+        "id": 231311,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_231311.jpg",
+        "name": "Валерий Тодоровский",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 231318,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_231318.jpg",
+        "name": "Максим Коропцов",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 3672560,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3672560.jpg",
+        "name": "Анастасия Бирюкова",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 3674871,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3674871.jpg",
+        "name": "Елена Горбунова",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 1333823,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1333823.jpg",
+        "name": "Олег Маловичко",
+        "enName": null,
+        "profession": "редакторы",
+        "enProfession": "writer"
+      },
+      {
+        "id": 700810,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_700810.jpg",
+        "name": "Алёна Званцова",
+        "enName": null,
+        "profession": "редакторы",
+        "enProfession": "writer"
+      }
+    ],
+    "images": { "framesCount": 11 },
+    "lists": [],
+    "spokenLanguages": [],
+    "productionCompanies": [],
+    "typeNumber": 2,
+    "alternativeName": null,
+    "budget": {},
+    "enName": null,
+    "names": [{ "name": "Ладога" }],
+    "updateDates": [],
+    "ageRating": 12,
+    "movieLength": 52,
+    "ratingMpaa": null,
+    "fees": { "world": {}, "russia": {}, "usa": {} },
+    "updatedAt": "2023-04-18T10:01:33.497Z",
+    "shortDescription": "Поставки продуктов в блокадный Ленинград оказываются под угрозой из-за диверсии. Напряженная военная драма",
+    "technology": { "hasImax": false, "has3D": false },
+    "ticketsOnSale": false,
+    "similarMovies": [
+      {
+        "id": 87214,
+        "name": "Ленинград",
+        "enName": null,
+        "alternativeName": null,
+        "type": "tv-series",
+        "poster": {
+          "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/8176381e-049c-4301-8263-e79ec5841fe2/orig",
+          "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/8176381e-049c-4301-8263-e79ec5841fe2/x1000"
+        }
+      },
+      {
+        "id": 494306,
+        "name": "Ленинград",
+        "enName": null,
+        "alternativeName": null,
+        "type": "movie",
+        "poster": {
+          "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/dca59af0-9270-4bb3-8be1-c3a1dd4e9aa7/orig",
+          "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/dca59af0-9270-4bb3-8be1-c3a1dd4e9aa7/x1000"
+        }
+      }
+    ],
+    "sequelsAndPrequels": [],
+    "imagesInfo": { "framesCount": 11 },
+    "backdrop": {
+      "url": "https://avatars.mds.yandex.net/get-ott/212840/2a000001661b5527217ab9d9dfa577d35c3c/orig",
+      "previewUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a000001661b5527217ab9d9dfa577d35c3c/x1000"
+    },
+    "logo": {
+      "url": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000176b037315740c875851105debd5c/orig"
+    },
+    "watchability": {
+      "items": [
+        {
+          "name": "Okko",
+          "logo": {
+            "url": "https://avatars.mds.yandex.net/get-ott/239697/7713e586-17d1-42d1-ac62-53e9ef1e70c3/orig"
+          },
+          "url": "https://okko.tv/serial/ladoga-626316?utm_medium=referral&utm_source=yandex_search&utm_campaign=new_search_feed"
+        },
+        {
+          "name": "START",
+          "logo": {
+            "url": "https://avatars.mds.yandex.net/get-ott/239697/1a632675-0d99-4268-bd5e-d5f3dd800174/orig"
+          },
+          "url": "https://start.ru/watch/ladoga?utm_source=kinopoisk&utm_medium=feed_watch&utm_campaign=ladoga"
+        },
+        {
+          "name": "Wink",
+          "logo": {
+            "url": "https://avatars.mds.yandex.net/get-ott/1672343/54096cbe-cc3b-41c9-8e44-990ebbca8d61/orig"
+          },
+          "url": "https://wink.ru/media_items/94690623?utm_source=yandex&utm_medium=koldunschick&utm_content=name"
+        },
+        {
+          "name": "Большое ТВ",
+          "logo": {
+            "url": "https://avatars.mds.yandex.net/get-ott/2439731/17c7ebcf-41aa-48b6-9366-621a85f1307a/orig"
+          },
+          "url": "https://bolshoe.tv/promo/web/movie/28809?segment=yandex_feed&group=peoples&utm_campaign=ya_feed&utm_medium=ya_feed"
+        },
+        {
+          "name": "24ТВ",
+          "logo": {
+            "url": "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig"
+          },
+          "url": "https://24h.tv/contents/2013-ladoga-546332340796784659"
+        }
+      ]
+    },
+    "releaseYears": [{ "start": 2013, "end": 2013 }],
+    "top10": null,
+    "top250": null,
+    "status": "completed"
+  },
+  {
+    "id": 5196005,
+    "externalId": { "kpHD": "41c5156ab3ef6895ac87255d65c89645" },
+    "name": "Агашки по вызову 2: Начало",
+    "alternativeName": "Ағашки по вызову 2: Начало",
+    "enName": null,
+    "names": [
+      { "name": "Агашки по вызову 2: Начало" },
+      { "name": "Ағашки по вызову 2: Начало" }
+    ],
+    "type": "movie",
+    "typeNumber": 1,
+    "description": "Жизнь Максата, обаятельного массажиста, кардинально меняется после встречи с Турсыном, основателем школы харизмы. Турсын становится для парня настоящим учителем в мире взаимоотношений с женщинами, с чего и начинается карьера будущего альфонса Фернандо.",
+    "shortDescription": "Максат учится искусству обольщения, чтобы манипулировать женщинами. Эксцентрическая комедия из Казахстана",
+    "slogan": null,
+    "rating": {
+      "kp": 6.708,
+      "imdb": 0,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 0
+    },
+    "votes": {
+      "kp": 7894,
+      "imdb": 0,
+      "filmCritics": 0,
+      "russianFilmCritics": 0,
+      "await": 0
+    },
+    "movieLength": 85,
+    "ratingMpaa": null,
+    "poster": {
+      "url": "https://st.kp.yandex.net/images/film_big/5196005.jpg",
+      "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_5196005.jpg"
+    },
+    "backdrop": {
+      "url": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000185649a28a8fb21d3f4f39921af18/orig",
+      "previewUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000185649a28a8fb21d3f4f39921af18/x1000"
+    },
+    "genres": [{ "name": "комедия" }],
+    "countries": [{ "name": "Казахстан" }],
+    "persons": [
+      {
+        "id": 281163,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_281163.jpg",
+        "name": "Жан Байжанбаев",
+        "enName": "Zhan Baizhanbayev",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 5043604,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5043604.jpg",
+        "name": "Олжас Альжанов",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 4534228,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4534228.jpg",
+        "name": "Асель Акбарова",
+        "enName": "Asel Akbarova",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 6697561,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6697561.jpg",
+        "name": "Динара Сатжан",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 6383084,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6383084.jpg",
+        "name": "Ерболат Алкожа",
+        "enName": "Yerbolat Alkozha",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 6881357,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6881357.jpg",
+        "name": "Жанкош Тураров",
+        "enName": "Janqosh Turarov",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 6890710,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6890710.jpg",
+        "name": "Рано Умарова",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 482624,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_482624.jpg",
+        "name": "Дильназ Ахмадиева",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 2889076,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2889076.jpg",
+        "name": "Рустем Жаныаманов",
+        "enName": "Rustem Zhanyamanov",
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 5915066,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5915066.jpg",
+        "name": "Ерлан Примбетов",
+        "enName": null,
+        "profession": "актеры",
+        "enProfession": "actor"
+      },
+      {
+        "id": 6433727,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6433727.jpg",
+        "name": "Абай Акбаев",
+        "enName": null,
+        "profession": "композиторы",
+        "enProfession": "composer"
+      },
+      {
+        "id": 7080184,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7080184.jpg",
+        "name": "Никита Годин",
+        "enName": null,
+        "profession": "художники",
+        "enProfession": "designer"
+      },
+      {
+        "id": 4719759,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4719759.jpg",
+        "name": "Ален Ниязбеков",
+        "enName": "Alen Niyazbekov",
+        "profession": "режиссеры",
+        "enProfession": "director"
+      },
+      {
+        "id": 3622524,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3622524.jpg",
+        "name": "Канат Мырзагалиев",
+        "enName": "Kanat Mirzagaliev",
+        "profession": "операторы",
+        "enProfession": "operator"
+      },
+      {
+        "id": 6825272,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6825272.jpg",
+        "name": "Ерлан Бухарбаев",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 7042352,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7042352.jpg",
+        "name": "Бибижамал Бекенова",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 7080146,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7080146.jpg",
+        "name": "Акбота Кайсенова",
+        "enName": null,
+        "profession": "продюсеры",
+        "enProfession": "producer"
+      },
+      {
+        "id": 6825275,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6825275.jpg",
+        "name": "Нуржан Еркинулы",
+        "enName": null,
+        "profession": "редакторы",
+        "enProfession": "writer"
+      },
+      {
+        "id": 6825276,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6825276.jpg",
+        "name": "Медет Калибеков",
+        "enName": null,
+        "profession": "редакторы",
+        "enProfession": "writer"
+      }
+    ],
+    "budget": {},
+    "fees": { "world": {}, "russia": {}, "usa": {} },
+    "watchability": { "items": null },
+    "top10": null,
+    "top250": null,
+    "facts": [],
+    "spokenLanguages": [],
+    "seasonsInfo": [],
+    "collections": [],
+    "productionCompanies": [],
+    "similarMovies": [],
+    "sequelsAndPrequels": [
+      {
+        "id": 4953248,
+        "name": "Агашки по вызову",
+        "enName": null,
+        "alternativeName": "Ағашки по вызову",
+        "type": "movie",
+        "poster": {
+          "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/fa8775a3-1912-4e74-9698-3dd2412bd3f3/orig",
+          "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/fa8775a3-1912-4e74-9698-3dd2412bd3f3/x1000"
+        }
+      }
+    ],
+    "releaseYears": [],
+    "createdAt": "2022-11-20T03:52:42.902Z",
+    "updatedAt": "2023-04-19T21:19:24.385Z",
+    "year": 2022,
+    "ageRating": 12,
+    "status": null,
+    "premiere": { "world": "2022-11-03T00:00:00.000Z" },
+    "ticketsOnSale": false
   }
 ]

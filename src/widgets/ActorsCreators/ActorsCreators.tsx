@@ -8,30 +8,15 @@ import { Link } from 'react-router-dom';
 import { UseMedia } from 'shared/hooks/useMedia';
 import { useAppDispatch } from 'app/store/hooks';
 import { openClose } from 'app/store/ActorsCreatorsModalSlice';
-
-interface ICreators {
-  id: string;
-  name: string;
-  position: string;
-  foto: string;
-  films: string[];
-}
-
-interface IActor {
-  position: string;
-  id: string;
-  name: string;
-  foto: string;
-  films: string[];
-}
+import { HTMLAttributes } from 'react';
+import { IPerson } from 'shared/types/IPerson';
 
 interface IProps {
-  creators: ICreators[];
-  actors: IActor[];
+  persons: IPerson[];
 }
+type props = HTMLAttributes<HTMLDivElement> & IProps;
 
-export function ActorsCreators({ creators, actors }: IProps) {
-  let arr = [...creators, ...actors];
+export function ActorsCreators({ persons, className }: props) {
   const tablet = UseMedia('(max-width: 850px)');
   const mobile = UseMedia('(max-width: 500px)');
   const dispatch = useAppDispatch();
@@ -43,7 +28,7 @@ export function ActorsCreators({ creators, actors }: IProps) {
   }, [tablet, mobile]);
 
   return (
-    <div className={styles.root}>
+    <div className={classNames(styles.root, className)}>
       <div className={styles.title}>
         <SectionTitle children={t('ActorsCreators')} />
       </div>
@@ -52,7 +37,8 @@ export function ActorsCreators({ creators, actors }: IProps) {
           className={styles.list}
           style={{ gridAutoColumns: `calc(${widthCardPerson}%)` }}
         >
-          {arr.slice(0, amountCardPerson).map((el) => {
+          {persons.slice(0, amountCardPerson).map((el) => {
+            if (el.name === null) return null;
             const [name] = el.name.split(' ').slice(0, 1);
             const [surName] = el.name.split(' ').slice(1);
 
@@ -62,8 +48,8 @@ export function ActorsCreators({ creators, actors }: IProps) {
                   to={`/ActorPage/${el.id}/${el.name}`}
                   className={styles.link}
                 >
-                  {el.foto !== '' ? (
-                    <img src={el.foto} alt={el.name} className={styles.pic} />
+                  {el.photo !== '' ? (
+                    <img src={el.photo} alt={el.name} className={styles.pic} />
                   ) : (
                     <div
                       className={classNames(
@@ -77,7 +63,7 @@ export function ActorsCreators({ creators, actors }: IProps) {
                   <p className={classNames(styles.name, styles.surName)}>
                     {surName}
                   </p>
-                  <p className={styles.position}>{el.position}</p>
+                  <p className={styles.position}>{el.profession}</p>
                 </Link>
               </li>
             );
