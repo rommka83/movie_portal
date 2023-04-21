@@ -11,9 +11,9 @@ import { ActorTabs } from 'features/ActorTabs/ActorTabs';
 import { PersonHeader } from 'shared/bisnes/PersonHeader';
 import { FilmographyItem } from 'entities/FilmographyItem';
 
-import { fetchActor } from 'app/store/ActorReducers/ActionCreators';
 import { declension } from './lib/helpers/declension ';
 import { RightArrow } from 'shared/ui/RightArrow';
+import { fetchActor } from 'app/store/ActorReducers/ActionCreators';
 
 export function ActorPage() {
   const [movies, setMovies] = useState<IActorFilms[]>([])
