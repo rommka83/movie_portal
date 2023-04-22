@@ -1,6 +1,17 @@
+.slider {
+    /* height: 400px; */
+    /* width: 10px; */
+    /* width: 100%; */
+
+}
+
 .slide {
     position: relative;
-
+    /* width: 80% !important; */
+    /* width: calc(80vw + 20px) !important; */
+    /* margin: 0 auto; */
+    /* width: 100% !important; */
+    max-height: 500px !important;
 }
 
 

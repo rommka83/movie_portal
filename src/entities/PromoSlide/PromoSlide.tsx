@@ -25,7 +25,7 @@ export const PromoSlide: React.FC<PropsType> = ({ movie }) => {
       <NavLink to='/watch' className={styles.body}>
         <div className={styles.content}>
           <div className={styles.logoContainer}>
-            <img src={movie.poster.url} className={styles.logo} alt='' />
+            {/* <img src={movie.poster.url} className={styles.logo} alt='' /> */}
           </div>
           <div className={styles.description}>{movie.shortDescription}</div>
           <div className={styles.btnContainer}>
