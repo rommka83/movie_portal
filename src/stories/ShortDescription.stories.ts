@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { ShortDescription } from '../shared/bisnes/ShortDescription';
-import obj from '../temp/DB/testOneFilm.json';
+import obj from './testOneFilm.json';
 const meta = {
   title: 'Example/ShortDescription',
   component: ShortDescription,
