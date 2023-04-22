@@ -8,7 +8,6 @@ const meta = {
   component: MovieBadge,
   tags: ['autodocs'],
   args: {
-    width: 100,
     film: obj,
   },
 

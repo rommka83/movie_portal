@@ -2,7 +2,7 @@ import { IRating } from './IRating';
 import { IFact } from './IFact';
 import { IPerson } from './IPerson';
 import { ISimulyarMovies } from './ISimulyarMovie';
-import { ITrailers } from './ITrailer';
+import { IVideo } from './IVideo';
 
 export interface IFilm {
   id: number;
@@ -18,7 +18,7 @@ export interface IFilm {
     url: string;
     previewUrl: string;
   };
-  videos?: ITrailers;
+  videos?: IVideo;
   genres: {
     name: string;
   }[];

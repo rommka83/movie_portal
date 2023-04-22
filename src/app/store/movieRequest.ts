@@ -12,7 +12,8 @@ const initialState = {
 
 export const getFilm = createAsyncThunk('film/film-request', async () => {
   const response = await axios.get(
-    `https://api.kinopoisk.dev/v1/movie/random`,
+    // `https://api.kinopoisk.dev/v1/movie/random`,
+    `https://api.kinopoisk.dev/v1/review?page=1&limit=10&id=333`,
     {
       headers: {
         Accept: 'application/json',

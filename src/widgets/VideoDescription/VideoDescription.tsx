@@ -59,7 +59,7 @@ export function VideoDescription({ film, className }: props) {
       </ul>
       <ActorsList actors={film.persons} reiting={film.rating.kp} />
       <p className={styles.description}>{film.description}</p>
-      <Grading />
+      <Grading grading={film.rating.kp} />
     </div>
   );
 }
