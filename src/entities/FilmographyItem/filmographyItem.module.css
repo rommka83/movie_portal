@@ -31,6 +31,7 @@
 
 .filmographyInfo {
     width: 60%;
+    padding-right: 10px;
 }
 
 .filmographyTitle {
@@ -59,7 +60,7 @@
     color: var(--gray-light);
 }
 
-.filmographyBtn {
+.btn {
     width: 140px;
     height: 40px;
 }
@@ -76,10 +77,13 @@
     .filmographyInfo {
         width: 100%;
         margin-bottom: 20px;
+
     }
 
-    .filmographyBtn {
+    .btn {
         width: 100%;
         height: 40px;
+        margin-left: 0px;
+
     }
 }
