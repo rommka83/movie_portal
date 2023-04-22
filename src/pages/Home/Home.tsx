@@ -3,6 +3,7 @@ import styles from './home.module.css';
 import testKinopoisk from '../../temp/DB/testKinopoisk.json';
 import { CategoryFilms } from 'widgets/CategoryFilms';
 import { PromoSlider } from 'widgets/PromoSlider';
+import { MovieBadge } from 'entities/MovieBadge';
 
 let adventures = testKinopoisk.filter((el) =>
   el.genres.find((e) => e.name === 'приключения')

@@ -1762,7 +1762,11 @@
       "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_820679.jpg"
     },
     "facts": [],
-    "genres": [{ "name": "военный" }, { "name": "драма" }],
+    "genres": [
+      { "name": "военный" },
+      { "name": "драма" },
+      { "name": "приключения" }
+    ],
     "countries": [{ "name": "Россия" }],
     "seasonsInfo": [{ "number": 1, "episodesCount": 4 }],
     "persons": [

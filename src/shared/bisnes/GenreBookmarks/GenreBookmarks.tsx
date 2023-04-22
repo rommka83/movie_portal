@@ -8,9 +8,10 @@ import classNames from 'classnames';
 interface IProps {
   ganre: { name: string }[];
 }
-type props = HTMLAttributes<HTMLUListElement> & IProps;
-
-export const GenreBookmarks: FC<props> = ({ ganre, className }) => {
+export const GenreBookmarks: FC<HTMLAttributes<HTMLUListElement> & IProps> = ({
+  ganre,
+  className,
+}) => {
   return (
     <ul className={classNames(styles.list, className)}>
       {ganre.map((el) => {

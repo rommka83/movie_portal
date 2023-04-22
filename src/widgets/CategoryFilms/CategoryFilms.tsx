@@ -1,4 +1,11 @@
-import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
+import React, {
+  FC,
+  HTMLAttributes,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import { SectionTitle } from 'shared/ui/SectionTitle/SectionTitle';
 import { MovieBadge } from 'entities/MovieBadge';
 import { nanoid } from '@reduxjs/toolkit';
@@ -6,14 +13,24 @@ import styles from './categoryfilms.module.css';
 import { UseMedia } from 'shared/hooks/useMedia';
 import { Link } from 'react-router-dom';
 import { IFilm } from 'shared/types/IFilm';
+import { PosterCards } from 'shared/bisnes/PosterCards/PosterCards';
 import { ISimulyarMovies } from 'shared/types/ISimulyarMovie';
+import classNames from 'classnames';
 
 interface IProps {
   title: string;
-  movies: IFilm[];
+  movies?: IFilm[];
+  simulyrMovie?: ISimulyarMovies[];
 }
+type props = HTMLAttributes<HTMLElement> & IProps;
 
-export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
+export const CategoryFilms: FC<props> = ({
+  title,
+  movies,
+  children,
+  simulyrMovie,
+  className,
+}) => {
   const list = useRef<HTMLUListElement>(null);
   const [ofset, setOfset] = useState(0);
   const [widthList, setWidthList] = useState(0);
@@ -74,7 +91,7 @@ export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
   }, [widthList]);
 
   return (
-    <section className={styles.root}>
+    <section className={classNames(styles.root, className)}>
       <SectionTitle children={title} />
       <div className={styles.sliderWrapper}>
         <div className={styles.window}>
@@ -83,18 +100,43 @@ export const CategoryFilms: FC<IProps> = ({ title, movies }) => {
             ref={list}
             style={{ transform: `translateX(${ofset}px)` }}
           >
-            {movies.map((obj) => {
-              return (
-                <li className={styles.item} key={nanoid()}>
-                  <Link to={`/MoviePage/${obj.id}/${obj.name}`}>
-                    <MovieBadge
-                      width={cardWidth !== undefined ? cardWidth : 0}
-                      film={obj}
-                    />
-                  </Link>
-                </li>
-              );
-            })}
+            {movies !== undefined &&
+              movies.map((obj) => {
+                return (
+                  <li className={styles.item} key={nanoid()}>
+                    <div
+                      style={{
+                        width: `${cardWidth !== undefined ? cardWidth : 0}px`,
+                        height: '100%',
+                      }}
+                    >
+                      <Link to={`/MoviePage/${obj.id}/${obj.name}`}>
+                        <MovieBadge film={obj} />
+                      </Link>
+                    </div>
+                  </li>
+                );
+              })}
+            {simulyrMovie !== undefined &&
+              simulyrMovie.map((obj) => {
+                return (
+                  <li className={styles.item} key={nanoid()}>
+                    <div
+                      style={{
+                        width: `${cardWidth !== undefined ? cardWidth : 0}px`,
+                        height: '100%',
+                      }}
+                    >
+                      <Link to={`/MoviePage/${obj.id}/${obj.name}`}>
+                        <PosterCards
+                          src={obj.poster.url ? obj.poster.url : ''}
+                          name={obj.name}
+                        />
+                      </Link>
+                    </div>
+                  </li>
+                );
+              })}
           </ul>
         </div>
       </div>

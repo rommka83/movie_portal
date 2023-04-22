@@ -9,15 +9,14 @@ import AgeRestrictions from 'shared/bisnes/AgeRestrictions';
 import { IFilm } from 'shared/types/IFilm';
 
 interface IProps {
-  width: number;
   film: IFilm;
 }
 
-export function MovieBadge({ width, film }: IProps) {
+export function MovieBadge({ film }: IProps) {
   const { i18n } = useTranslation();
   const lng = i18n.language;
   return (
-    <article className={styles.wrapper} style={{ width: `${width}px` }}>
+    <article className={styles.wrapper}>
       <div className={styles.banner}>
         <div className={styles.bannerMain}>
           <PosterCards

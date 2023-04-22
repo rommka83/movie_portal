@@ -70,7 +70,9 @@ export function ActorsCreators({ persons, className }: props) {
           })}
           <li
             className={classNames(styles.item, styles.entryModal)}
-            onClick={() => dispatch(openClose())}
+            onClick={() => {
+              dispatch(openClose());
+            }}
           >
             {t('more')}
           </li>
