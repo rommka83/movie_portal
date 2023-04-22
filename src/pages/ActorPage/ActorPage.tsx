@@ -10,9 +10,10 @@ import { IActorFilms } from 'shared/types/IActorFilms';
 import { ActorTabs } from 'features/ActorTabs/ActorTabs';
 import { PersonHeader } from 'shared/bisnes/PersonHeader';
 import { FilmographyItem } from 'entities/FilmographyItem';
+import Back from 'shared/ui/Back';
 
 import { declension } from './lib/helpers/declension ';
-import { RightArrow } from 'shared/ui/RightArrow';
+
 import { fetchActor } from 'app/store/ActorReducers/ActionCreators';
 
 export function ActorPage() {
@@ -59,8 +60,7 @@ export function ActorPage() {
     <section className={styles.actorPage}>
       <div className='container'>
         <div onClick={() => navigate(-1)} className={styles.back}>
-          <RightArrow size='big' className={styles.arrow} />
-          <span className={styles.span}>Назад</span>
+          <Back>Назад</Back>
         </div>
         <div className={styles.container}>
           {

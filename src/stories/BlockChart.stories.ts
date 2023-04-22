@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { BlockChart } from '../shared/bisnes/BlockChart';
-import obj from '../temp/DB/testOneFilm.json';
+import obj from './testOneFilm.json';
 
 const meta = {
   title: 'Example/BlockChart',

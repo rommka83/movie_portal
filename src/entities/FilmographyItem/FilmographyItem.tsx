@@ -39,21 +39,19 @@ export const FilmographyItem: React.FC<PropsType> = ({ movie }) => {
                         }
                     </div>
                     {movie.rating && <div className={styles.filmographyRating}>
-                        Райтинг Иви:
+                        Рейтинг Иви:
                         <span className={styles.filmographyRatingSpan}>
                             {movie.rating}
                         </span>
                     </div>}
                 </div>
-                <div className={styles.filmographyBtn}>
-                    <ButtonOrLink
-                        to={`/MoviePage/${movie.id}/${movie.name}`}
-                        className={styles.btn}
-                        variant={'secondary'}
-                    >
-                        Смотреть
-                    </ButtonOrLink>
-                </div>
+                <ButtonOrLink
+                    to={`/MoviePage/${movie.id}/${movie.name}`}
+                    className={styles.btn}
+                    variant={'secondary'}
+                >
+                    Смотреть
+                </ButtonOrLink>
             </div>
         </NavLink>
     )

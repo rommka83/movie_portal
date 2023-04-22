@@ -13,18 +13,16 @@ export const ActorTabs: React.FC<PropsType> = ({ tabs }) => {
 
 
     return (
-        <div className={styles.tabs}>
-            <ul className={styles.tabsList}>
-                {tabs.map((tab, index) =>
-                    <li
-                        key={tab}
-                        onClick={() => setSelectedTab(index)}
-                        className={cn(styles.tabsItem, index === selectedTab ? styles.active : null)}
-                    >
-                        {tab}
-                    </li>
-                )}
-            </ul>
-        </div>
+        <ul className={styles.tabsList}>
+            {tabs.map((tab, index) =>
+                <li
+                    key={tab}
+                    onClick={() => setSelectedTab(index)}
+                    className={cn(styles.tabsItem, index === selectedTab ? styles.active : null)}
+                >
+                    {tab}
+                </li>
+            )}
+        </ul>
     )
 }

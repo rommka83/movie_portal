@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ActorsList } from '../entities/ActorsList';
-import film from '../temp/DB/testOneFilm.json';
+import film from './testOneFilm.json';
 
 const meta = {
   title: 'Example/ActorsList',

@@ -4,7 +4,6 @@
     margin: 0 auto;
 }
 
-
 .back {
     display: flex;
     align-items: center;
@@ -62,6 +61,13 @@
     line-height: 20px;
     font-weight: 500;
     font-style: normal;
+}
+
+@media(max-width:1160px) {
+    .container {
+        width: 66.666%;
+        margin: 0 auto;
+    }
 }
 
 @media(max-width:880px) {
