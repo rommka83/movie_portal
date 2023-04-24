@@ -1,5 +1,4 @@
 {
-  "Welcome to React": "Привет",
   "navList": {
     "Home": "Главная",
     "MovieList": "Список фильмов",
@@ -43,6 +42,10 @@
     "Profile": "Профиль",
     "More": "Ещё"
   },
+  "topChart": {
+    "Our": "Наша",
+    "grade": "оценка"
+  },
   "header": {
     "MyIvi": "Мой Иви",
     "WhatsNew": "Что нового",
@@ -52,6 +55,16 @@
     "TvChannels": "ТВ-каналы",
     "Watch30DaysForFree": "Смотреть 30 дней бесплатно"
   },
+  "Grading": {
+    "Portal rating": "Рейтинг портала",
+    "estimate": "оценить",
+    "ratings": "оценок"
+  },
+  "Player": {
+    "trailer": "трейлер"
+  },
+  "ActorsCreators": "Актёры и создатели",
+  "more": "ещё",
   "headerMoviesFilter": {
     "Genres": "Жанры",
     "biography": "Биография",
@@ -141,5 +154,9 @@
     "from900к": "от 900к",
     "Filters": "Фильтры",
     "ShowResults": "Показать результаты"
+  },
+
+  "sectionTitle": {
+    "movie commentary": "Коментарии к фильму"
   }
 }

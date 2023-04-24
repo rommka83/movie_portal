@@ -1,5 +1,4 @@
 {
-  "Welcome to React": "Welcome",
   "navList": {
     "Home": "Home",
     "MovieList": "MovieList",
@@ -42,7 +41,10 @@
     "Profile": "Profile",
     "More": "More"
   },
-
+  "topChart": {
+    "Our": "Our",
+    "grade": "grade"
+  },
   "header": {
     "MyIvi": "My Ivi",
     "WhatsNew": "What's new",
@@ -52,6 +54,17 @@
     "TvChannels": "TV-channels",
     "Watch30DaysForFree": "Watch 30 days for free"
   },
+  "Grading": {
+    "Portal rating": "Portal rating",
+    "estimate": "estimate",
+    "ratings": "ratings"
+  },
+  "Player": {
+    "trailer": "trailer"
+  },
+  "ActorsCreators": "Actors and Creators",
+  "more": "more",
+
   "headerMoviesFilter": {
     "Genres": "Genres",
     "biography": "Biography",
@@ -141,5 +154,9 @@
     "from900к": "from 500к",
     "Filters": "Filters",
     "ShowResults": "Show results"
+  },
+
+  "sectionTitle": {
+    "movie commentary": "Movie commentary"
   }
 }

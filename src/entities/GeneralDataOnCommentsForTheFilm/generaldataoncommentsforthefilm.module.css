@@ -1,0 +1,27 @@
+.list {
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.bigNumber {
+  font-size: 30px;
+}
+.total {
+}
+.type {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.positive {
+  color: var(--green);
+}
+.procent {
+  opacity: 0.5;
+  font-size: 14px;
+}
+.negative {
+  color: var(--pink-active);
+}
+.neutral {
+  opacity: 0.5;
+}

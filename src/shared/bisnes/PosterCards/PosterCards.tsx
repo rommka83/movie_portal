@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 import styles from './postercards.module.css';
+import classNames from 'classnames';
 
 interface IProps {
   src: string;
   name: string;
 }
+type props = HTMLAttributes<HTMLDivElement> & IProps;
 
-export const PosterCards = React.memo<IProps>(({ src, name }) => {
+export const PosterCards = React.memo<props>(({ src, name, className }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={classNames(styles.wrapper, className)}>
       <img src={src} alt={name} className={styles.pic} />
     </div>
   );
 });
-//'https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/5ec7dbd7-1cab-4eae-8846-8be00c56dc0a/300x450'

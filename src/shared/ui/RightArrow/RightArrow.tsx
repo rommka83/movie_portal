@@ -6,10 +6,11 @@ interface IProps {
   size: 'big' | 'small';
   color?: 'white' | 'black';
   onClick?: () => void;
+  className?: string
 }
 
-export function RightArrow({ size = 'big', color = 'white', onClick }: IProps) {
-  const classes = classNames(styles.RightArrow, {
+export function RightArrow({ size = 'big', color = 'white', onClick, className }: IProps) {
+  const classes = classNames(styles.RightArrow, className, {
     [styles.big]: size === 'big',
     [styles.small]: size !== 'big',
   });

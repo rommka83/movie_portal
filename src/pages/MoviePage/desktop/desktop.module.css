@@ -7,25 +7,37 @@
   padding-bottom: 20px;
 }
 .playerAndDescription {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 0.6fr;
   grid-column-gap: 40px;
+
+  margin-bottom: 50px;
 }
 .player {
   grid-column: 1;
-}
-.playerWrapper {
+  height: fit-content;
+  position: sticky;
+  top: 20px;
 }
 .description {
   grid-column: 2;
 }
 .simulyar {
+  margin-bottom: 50px;
 }
 .ActorsCreators {
+  margin-bottom: 50px;
 }
 .AdditionalMaterials {
+  margin-bottom: 50px;
 }
 .comments {
+  margin-bottom: 50px;
 }
 .allDvices {
+  margin-bottom: 30px;
+}
+.crumbs {
+  margin-bottom: 30px;
 }

@@ -1,12 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { BlockChart } from '../shared/bisnes/BlockChart';
+import obj from './testOneFilm.json';
 
 const meta = {
   title: 'Example/BlockChart',
   component: BlockChart,
   tags: ['autodocs'],
-  args: { spectacularity: 50, actors: 50, plot: 50, directing: 50, width: 40 },
+  args: { obj: obj.rating, width: 40 },
   parameters: {
     layout: 'centered',
   },

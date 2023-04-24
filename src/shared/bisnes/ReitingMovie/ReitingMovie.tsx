@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 import styles from './reitingmovie.module.css';
 
 interface IProps {
-  grade: string;
+  grade: number;
 }
 
 export const ReitingMovie: FC<IProps> = ({ grade }) => {
-  const [integer, decimal] = grade.split(',');
+  const [integer, decimal] = grade.toString().split('.');
 
   return (
     <div className={styles.root}>

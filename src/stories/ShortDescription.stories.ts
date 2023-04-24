@@ -1,16 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { ShortDescription } from '../shared/bisnes/ShortDescription';
-
+import obj from './testOneFilm.json';
 const meta = {
   title: 'Example/ShortDescription',
   component: ShortDescription,
   tags: ['autodocs'],
   args: {
-    year: '2222',
-    country: 'Россия',
-    genre: 'Фэнтези',
-    duration: '90 минут',
+    obj: obj,
   },
 
   parameters: {

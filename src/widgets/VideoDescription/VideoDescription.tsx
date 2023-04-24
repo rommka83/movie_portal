@@ -2,52 +2,49 @@ import React from 'react';
 import styles from './videodescription.module.css';
 import { GenreBookmarks } from 'shared/bisnes/GenreBookmarks';
 import classNames from 'classnames';
-import { ActorsList, IActor } from 'entities/ActorsList';
+import { ActorsList } from 'entities/ActorsList';
 import { Grading } from 'features/Grading';
+import { IFilm } from 'shared/types/IFilm';
+import { useTranslation } from 'react-i18next';
+import { HTMLAttributes } from 'react';
 
 interface IProps {
-  title: string;
-  year: string;
-  duration: string;
-  ageRestrictions: number;
-  ganre: string[];
-  actors: IActor[];
-  reiting: string;
-  description: string;
+  film: IFilm;
 }
+type props = HTMLAttributes<HTMLDivElement> & IProps;
 
-export function VideoDescription({
-  title,
-  year,
-  duration,
-  ageRestrictions,
-  ganre,
-  actors,
-  reiting,
-  description,
-}: IProps) {
+export function VideoDescription({ film, className }: props) {
+  const { i18n } = useTranslation();
+  const lng = i18n.language;
+  const hours = Math.floor(film.movieLength / 60);
+  const min = film.movieLength - hours;
+
   return (
-    <div className={styles.root}>
-      <h2 className={styles.title}>{title}</h2>
+    <div className={classNames(styles.root, className)}>
+      <h2 className={styles.title}>
+        {lng === 'ru' ? film.name : film.enName ? film.enName : film.name}
+      </h2>
       <ul className={styles.atributes}>
         <li className={styles.atributesItem}>
           <a href='https://www.ivi.ru/series' className={styles.atributesLink}>
-            {year}
+            {film.year}
           </a>
         </li>
         <li className={styles.atributesItem}>
           <a href='https://www.ivi.ru/series' className={styles.atributesLink}>
-            {duration}
+            {hours < 0
+              ? film.movieLength + ' мин'
+              : hours + ' ч ' + min + ' мин'}
           </a>
         </li>
         <li className={styles.atributesItem}>
           <a href='https://www.ivi.ru/series' className={styles.atributesLink}>
-            {ageRestrictions}+
+            {film.ageRating ? film.ageRating : 0} +
           </a>
         </li>
       </ul>
       <div className={styles.ganre}>
-        <GenreBookmarks ganre={ganre} />
+        <GenreBookmarks ganre={film.genres} />
       </div>
       <ul className={styles.quality}>
         <li className={styles.qualityVideo}>FullHD</li>
@@ -60,9 +57,9 @@ export function VideoDescription({
           Рус
         </li>
       </ul>
-      <ActorsList actors={actors} reiting={reiting} />
-      <p className={styles.description}>{description}</p>
-      <Grading />
+      <ActorsList actors={film.persons} reiting={film.rating.kp} />
+      <p className={styles.description}>{film.description}</p>
+      <Grading grading={film.rating.kp} />
     </div>
   );
 }

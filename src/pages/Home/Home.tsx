@@ -1,23 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './home.module.css';
-import test from '../../temp/DB/test.json';
-import { IFilm } from 'entities/MovieBadge';
+import testKinopoisk from '../../temp/DB/testKinopoisk.json';
 import { CategoryFilms } from 'widgets/CategoryFilms';
 import { PromoSlider } from 'widgets/PromoSlider';
+import { MovieBadge } from 'entities/MovieBadge';
 
-let [obj, obj2] = test.movies;
-let arr: IFilm[] = Array(20).fill(obj);
-let arr2: IFilm[] = Array(20).fill(obj2);
+let adventures = testKinopoisk.filter((el) =>
+  el.genres.find((e) => e.name === 'приключения')
+);
+let fantasy = testKinopoisk.filter((el) =>
+  el.genres.find((e) => e.name === 'фэнтези')
+);
 
 export function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <PromoSlider movies={test.movies} />
+      <PromoSlider movies={testKinopoisk} />
       <div className='container'>
-        <CategoryFilms title={obj.category} movies={arr} />
-        <CategoryFilms title={obj2.category} movies={arr2} />
+        <CategoryFilms title={'Приключения'} movies={adventures} />
+        <CategoryFilms title={'Фэнтези'} movies={fantasy} />
       </div>
     </>
-
   );
 }
