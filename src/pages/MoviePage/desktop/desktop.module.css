@@ -7,6 +7,7 @@
   padding-bottom: 20px;
 }
 .playerAndDescription {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 0.6fr;
   grid-column-gap: 40px;
@@ -15,6 +16,9 @@
 }
 .player {
   grid-column: 1;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
 }
 .description {
   grid-column: 2;
@@ -32,5 +36,8 @@
   margin-bottom: 50px;
 }
 .allDvices {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+.crumbs {
+  margin-bottom: 30px;
 }
