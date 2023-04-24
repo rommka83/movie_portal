@@ -5,15 +5,17 @@ interface IFilterGenreCard {
   genre: string;
   className?: string;
   iconClassName?: string;
+  containerClassName?: string;
 }
 export function FilterGenreCard({
   caption,
   genre,
   className,
   iconClassName,
+  containerClassName,
 }: IFilterGenreCard) {
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, containerClassName)}>
       <div className={classNames(styles.containerInner, className)}>
         <div
           className={classNames(

@@ -10,9 +10,11 @@ import { InputRange } from 'shared/ui/InputRange';
 import { Carousel } from 'shared/ui/Carousel';
 import { FilterGenreCard } from 'shared/ui/FilterGenreCard';
 import { ButtonOrLink } from 'shared/ui/ButtonOrLink/ButtonOrLink';
+import { UseMedia } from 'shared/hooks/useMedia';
 
 export const FilterPanelDesktop = React.memo(() => {
   const { t } = useTranslation();
+  const tablet = UseMedia('(max-width: 900px)');
   const formatterRating = useCallback((value: string | number) => {
     return +value / 10;
   }, []);
@@ -30,21 +32,24 @@ export const FilterPanelDesktop = React.memo(() => {
             position='left'
           >
             <div className={styles.listWrapper}>
-              <Carousel
-                className={styles.carousel}
-                withButton
-                scrollMultipleItems
-              >
-                {genres.map((genre) => (
-                  <FilterGenreCard
-                    className={styles.card}
-                    iconClassName={styles.iconCard}
-                    key={genre}
-                    genre={genre}
-                    caption={t(`headerMoviesFilter.${genre}`)}
-                  ></FilterGenreCard>
-                ))}
-              </Carousel>
+              {!tablet && (
+                <Carousel
+                  className={styles.carousel}
+                  withButton
+                  scrollMultipleItems
+                >
+                  {genres.map((genre) => (
+                    <FilterGenreCard
+                      containerClassName={styles.genreCardContainer}
+                      className={styles.card}
+                      iconClassName={styles.iconCard}
+                      key={genre}
+                      genre={genre}
+                      caption={t(`headerMoviesFilter.${genre}`)}
+                    ></FilterGenreCard>
+                  ))}
+                </Carousel>
+              )}
               <FilterDropdownList
                 className={styles.list}
                 array={genres}
@@ -55,22 +60,24 @@ export const FilterPanelDesktop = React.memo(() => {
 
           <FilterDropdown title='FilterPanel' type='Countries' position='left'>
             <div className={styles.listWrapper}>
-              <Carousel className={styles.carousel} withButton>
-                {countries.map((country) => (
-                  <div
-                    className={styles.countriesButtonContainer}
-                    key={country}
-                  >
-                    <ButtonOrLink
-                      className={styles.countriesButton}
-                      variant='third'
-                      large
+              {!tablet && (
+                <Carousel className={styles.carousel} withButton>
+                  {countries.map((country) => (
+                    <div
+                      className={styles.countriesButtonContainer}
+                      key={country}
                     >
-                      {t(`FilterPanel.${country}`)}
-                    </ButtonOrLink>
-                  </div>
-                ))}
-              </Carousel>
+                      <ButtonOrLink
+                        className={styles.countriesButton}
+                        variant='third'
+                        large
+                      >
+                        {t(`FilterPanel.${country}`)}
+                      </ButtonOrLink>
+                    </div>
+                  ))}
+                </Carousel>
+              )}
             </div>
             <FilterDropdownList
               className={styles.list}
