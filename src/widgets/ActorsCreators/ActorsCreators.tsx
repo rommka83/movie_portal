@@ -29,9 +29,7 @@ export function ActorsCreators({ persons, className }: props) {
 
   return (
     <div className={classNames(styles.root, className)}>
-      <div className={styles.title}>
-        <SectionTitle children={t('ActorsCreators')} />
-      </div>
+      <SectionTitle children={t('ActorsCreators')} className={styles.title} />
       <div className={styles.picWrapper}>
         <ul
           className={styles.list}

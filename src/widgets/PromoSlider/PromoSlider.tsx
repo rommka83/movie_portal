@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper';
+import { Navigation } from 'swiper';
 
 import { PromoSlide } from 'entities/PromoSlide';
 import { IFilm } from 'shared/types/IFilm';
@@ -18,7 +18,7 @@ export const PromoSlider: React.FC<PropsType> = ({ movies }) => {
   return (
     <Swiper
       // Autoplay
-      modules={[Navigation,]}
+      modules={[Navigation]}
       spaceBetween={20}
       slidesPerView={1.23}
       navigation

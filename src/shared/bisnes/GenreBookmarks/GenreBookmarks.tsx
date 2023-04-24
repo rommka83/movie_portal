@@ -4,16 +4,28 @@ import { nanoid } from '@reduxjs/toolkit';
 import { type } from 'os';
 import { HTMLAttributes } from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 interface IProps {
+  home?: boolean;
+  page?: string;
   ganre: { name: string }[];
 }
 export const GenreBookmarks: FC<HTMLAttributes<HTMLUListElement> & IProps> = ({
   ganre,
   className,
+  home,
+  page,
 }) => {
   return (
     <ul className={classNames(styles.list, className)}>
+      {home && (
+        <li className={styles.item} key={nanoid()}>
+          <Link to='/' className={styles.link}>
+            мой иви
+          </Link>
+        </li>
+      )}
       {ganre.map((el) => {
         return (
           <li className={styles.item} key={nanoid()}>
@@ -23,6 +35,11 @@ export const GenreBookmarks: FC<HTMLAttributes<HTMLUListElement> & IProps> = ({
           </li>
         );
       })}
+      {page && (
+        <li className={styles.item} key={nanoid()}>
+          <span className={styles.link}>{page}</span>
+        </li>
+      )}
     </ul>
   );
 };

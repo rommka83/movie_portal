@@ -106,5 +106,8 @@
     "MoviesInHD": "Фильмы в HD",
     "IvisChoice": "Выбор Иви",
     "SubscriptionNews": "Новинки подписки"
+  },
+  "sectionTitle": {
+    "movie commentary": "Коментарии к фильму"
   }
 }

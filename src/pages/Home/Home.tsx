@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './home.module.css';
 import testKinopoisk from '../../temp/DB/testKinopoisk.json';
 import { CategoryFilms } from 'widgets/CategoryFilms';
@@ -13,6 +13,9 @@ let fantasy = testKinopoisk.filter((el) =>
 );
 
 export function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <PromoSlider movies={testKinopoisk} />

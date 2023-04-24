@@ -10,6 +10,9 @@ import { CategoryFilms } from 'widgets/CategoryFilms';
 import AdditionalMaterials from 'entities/AdditionalMaterials';
 import { useAppDispatch } from 'app/store/hooks';
 import { getFilm } from 'app/store/movieRequest';
+import { BlockComments } from 'widgets/BlockComments/BlockComments';
+import testComments from '../../../temp/DB/testComments.json';
+import { AllDevaicePoster } from 'entities/AllDevaicePoster';
 
 export function Desktop() {
   const { id } = useParams();
@@ -51,8 +54,18 @@ export function Desktop() {
         className={styles.ActorsCreators}
       />
       <AdditionalMaterials className={styles.AdditionalMaterials} />
-      <div className={styles.comments}>comments</div>
-      <div className={styles.allDvices}>allDvices</div>
+      <BlockComments className={styles.comments} comments={testComments} />
+      <AllDevaicePoster
+        name={film.name}
+        poster={film.poster.url}
+        className={styles.allDvices}
+      />
+      <GenreBookmarks
+        home
+        ganre={film.genres}
+        page={film.name}
+        className={styles.crumbs}
+      />
     </div>
   );
 }
