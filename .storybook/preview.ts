@@ -3,6 +3,7 @@ import '../src/app/styles/index.css';
 import '../src/app/styles/vars.css';
 import '../src/app/styles/_nulling-styles.css';
 import './styles.css';
+import '../src/app/styles/iconfonts.css';
 
 const preview: Preview = {
   parameters: {

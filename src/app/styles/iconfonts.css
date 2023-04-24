@@ -957,7 +957,7 @@
 .icon-fullscreenExpand_20__0:before {
 	content: "\ea36";
 }
-.icon-genre_action_24__0:before {
+.icon-genre_actions_24__0:before {
 	content: "\ea37";
 }
 .icon-genre_action_32__0:before {
@@ -984,7 +984,7 @@
 .icon-genre_adult_64__1:before {
 	content: "\ea3f";
 }
-.icon-genre_adventure_24__0:before {
+.icon-genre_adventures_24__0:before {
 	content: "\ea40";
 }
 .icon-genre_adventure_32__0:before {
@@ -1035,10 +1035,10 @@
 .icon-genre_arthouse_64__1:before {
 	content: "\ea50";
 }
-.icon-genre_biography_32__0:before {
+.icon-genre_biography_24__0:after {
 	content: "\ea51";
 }
-.icon-genre_biography_32__1:before {
+.icon-genre_biography_24__0:before {
 	content: "\ea52";
 }
 .icon-genre_biography_64__0:before {
@@ -1074,10 +1074,10 @@
 .icon-genre_comedy_64__1:before {
 	content: "\ea5d";
 }
-.icon-genre_comics_32__0:before {
+.icon-genre_cartoons_24__0:before {
 	content: "\ea5e";
 }
-.icon-genre_comics_32__1:before {
+.icon-genre_cartoons_24__0:after {
 	content: "\ea5f";
 }
 .icon-genre_comics_64__0:before {
@@ -1086,10 +1086,10 @@
 .icon-genre_comics_64__1:before {
 	content: "\ea61";
 }
-.icon-genre_criminal_32__0:before {
+.icon-genre_criminal_24__0:before {
 	content: "\ea62";
 }
-.icon-genre_criminal_32__1:before {
+.icon-genre_criminal_24__0:after {
 	content: "\ea63";
 }
 .icon-genre_criminal_64__0:before {
@@ -1098,10 +1098,10 @@
 .icon-genre_criminal_64__1:before {
 	content: "\ea65";
 }
-.icon-genre_detective_32__0:before {
+.icon-genre_detectives_24__0:before {
 	content: "\ea66";
 }
-.icon-genre_detective_32__1:before {
+.icon-genre_detectives_24__0:after {
 	content: "\ea67";
 }
 .icon-genre_detective_64__0:before {
@@ -1122,10 +1122,10 @@
 .icon-genre_disaster_64__1:before {
 	content: "\ea6d";
 }
-.icon-genre_documentary_32__0:before {
+.icon-genre_documentaries_24__0:before {
 	content: "\ea6e";
 }
-.icon-genre_documentary_32__1:before {
+.icon-genre_documentaries_24__0:after {
 	content: "\ea6f";
 }
 .icon-genre_documentary_64__0:before {
@@ -1239,10 +1239,10 @@
 .icon-genre_foreign_64__1:before {
 	content: "\ea94";
 }
-.icon-genre_historical_32__0:before {
+.icon-genre_historical_24__0:before {
 	content: "\ea95";
 }
-.icon-genre_historical_32__1:before {
+.icon-genre_historical_24__0:after {
 	content: "\ea96";
 }
 .icon-genre_historical_64__0:before {
@@ -1251,10 +1251,10 @@
 .icon-genre_historical_64__1:before {
 	content: "\ea98";
 }
-.icon-genre_horror_32__0:before {
+.icon-genre_horror_24__0:before {
 	content: "\ea99";
 }
-.icon-genre_horror_32__1:before {
+.icon-genre_horror_24__0:after {
 	content: "\ea9a";
 }
 .icon-genre_horror_64__0:before {
@@ -1275,10 +1275,10 @@
 .icon-genre_interview_64__1:before {
 	content: "\eaa0";
 }
-.icon-genre_kids_32__0:before {
+.icon-genre_kids_24__0:before {
 	content: "\eaa1";
 }
-.icon-genre_kids_32__1:before {
+.icon-genre_kids_24__0:after {
 	content: "\eaa2";
 }
 .icon-genre_kids_64__0:before {
@@ -1326,7 +1326,7 @@
 .icon-genre_melodrama_64__1:before {
 	content: "\eab1";
 }
-.icon-genre_military_32__0:before {
+.icon-genre_military_24__0:before {
 	content: "\eab2";
 }
 .icon-genre_military_32__1:before {
@@ -1362,10 +1362,10 @@
 .icon-genre_music_64__1:before {
 	content: "\eabd";
 }
-.icon-genre_musical_32__0:before {
+.icon-genre_musical_24__0:before {
 	content: "\eabe";
 }
-.icon-genre_musical_32__1:before {
+.icon-genre_musical_24__0:after {
 	content: "\eabf";
 }
 .icon-genre_musical_64__0:before {
@@ -1470,10 +1470,10 @@
 .icon-genre_spectacle_64__1:before {
 	content: "\eae1";
 }
-.icon-genre_sport_32__0:before {
+.icon-genre_sport_24__0:before {
 	content: "\eae2";
 }
-.icon-genre_sport_32__1:before {
+.icon-genre_sport_24__0:after {
 	content: "\eae3";
 }
 .icon-genre_sport_64__0:before {
@@ -1482,7 +1482,7 @@
 .icon-genre_sport_64__1:before {
 	content: "\eae5";
 }
-.icon-genre_triller_24__0:before {
+.icon-genre_thrillers_24__0:before {
 	content: "\eae6";
 }
 .icon-genre_triller_32__0:before {
@@ -1509,10 +1509,10 @@
 .icon-genre_tv_show_64__1:before {
 	content: "\eaee";
 }
-.icon-genre_western_32__0:before {
+.icon-genre_western_24__0:before {
 	content: "\eaef";
 }
-.icon-genre_western_32__1:before {
+.icon-genre_western_24__0:after {
 	content: "\eaf0";
 }
 .icon-genre_western_64__0:before {
