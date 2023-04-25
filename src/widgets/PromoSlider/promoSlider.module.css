@@ -1,22 +1,23 @@
-.slider {
-    /* height: 400px; */
-    /* width: 10px; */
-    /* width: 100%; */
-
-}
+.slider {}
 
 .slide {
     position: relative;
-    /* width: 80% !important; */
-    /* width: calc(80vw + 20px) !important; */
-    /* margin: 0 auto; */
-    /* width: 100% !important; */
-    max-height: 500px !important;
 }
 
-
-@media (max-width:550px) {
+@media (max-width:768px) {
     .slide {
-        height: 250px !important;
+        height: 300px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .slide {
+        height: 600px !important;
+    }
+}
+
+@media (max-width:425px) {
+    .slide {
+        height: 300px !important;
     }
 }
