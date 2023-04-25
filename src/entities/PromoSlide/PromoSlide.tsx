@@ -13,18 +13,17 @@ type PropsType = {
 };
 
 export const PromoSlide: React.FC<PropsType> = ({ movie }) => {
-  const swapImage = UseMedia('(max-width: 450px)');
 
   return (
     <div className={styles.block}>
       <img
         className={styles.background}
-        // src={swapImage ? movie.images.small : movie.images.large}
         src={movie.poster.url}
       />
       <NavLink to='/watch' className={styles.body}>
         <div className={styles.content}>
           <div className={styles.logoContainer}>
+            <h2 className={styles.logo}>{movie.name}</h2>
             {/* <img src={movie.poster.url} className={styles.logo} alt='' /> */}
           </div>
           <div className={styles.description}>{movie.shortDescription}</div>
